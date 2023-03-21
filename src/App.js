@@ -1,12 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import PitchbackPage from './components/PitchbackPage';
+import LandingPage from './pages/LandingPage';
+import LoginPage from './pages/LoginPage'
+import RegisterPage from './pages/RegisterPage'
 
 function App() {
   return (
     <BrowserRouter>
-      //TODO landingpage.js
+      
       {/* <div className="App">
         <header className="App-header">
           <h1>Pitchback</h1>
@@ -21,9 +23,9 @@ function App() {
         </header>
       </div> */}
       <Routes>
-        <Route exact path="/pitchback" element={<PitchbackPage />} />
-        //TODO login.js
-        //TODO register.js
+        <Route exact path="/" element={<LandingPage />} />
+        <Route exact path="/login" element={<LoginPage />} />
+        <Route exact path="/register" element={<RegisterPage />} />
         //TODO about.js of iets anders voor meer informatie, geen prio
       </Routes>
     </BrowserRouter>
