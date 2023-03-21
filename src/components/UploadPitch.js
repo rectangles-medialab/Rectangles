@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import '../App.css';
 import ml5 from 'ml5';
-
+import StartProcessor from "./StartProcessor";
+import downloadImage from './download.png';
 
 export default function UploadPitch() {
     const [file, setFile] = useState(null);
@@ -55,8 +56,8 @@ export default function UploadPitch() {
 
     return (
         <div className="app-container">
-            <h1>Laat het checken door PitchBack!</h1>
-            <p>PitchBack is een tool die jou helpt feedback te geven over  de pitch die je houdt. Hierbij geeft de tool feedbaak op postuur en spraak.</p>
+            <h1>Weet je niet zeker of jouw pitch goed overkomt bij het publiek?</h1>
+            <p>Laat het checken door PitchBack! Dit is een tool die jou helpt feedback te geven over de pitch die je houdt. Hierbij geeft de tool feedback op jouw postuur en spraak.</p>
 
             {videoUrl ? (
 
@@ -67,22 +68,24 @@ export default function UploadPitch() {
                     <div className="next-button-container">
                         <p>Check jou video nog een keer voordat we jou video laat checken door PitchBack. Misschien zijn er nog een paar dingen die je wilt toevoegen of verwijderen?</p>
                         <button className="next-button" onClick={handleClick}>Checken!</button>
+
                     </div>
                 </div>
             ) : (
                 <div className="upload-container">
-                    <p>Upload jouw video</p>
-                    <input type="file" onChange={handleUpload} />
+                        <p>Upload hieronder jouw video</p>
+                        <input type="file" onChange={handleUpload} id="actual-btn" hiddenid="actual-btn" hidden/>
+                        <label for="actual-btn">
+                            <img src={downloadImage} alt="Download Button" />
+                        </label>
+                        {/* <span id="file-chosen">No file chosen</span> */}
                 </div>
                 
 
             )}
 
-            {showNextSection && (
-                <div className="next-container">
-                    <p>Nice</p>
-                </div>
-            )}
+            {showNextSection && <StartProcessor />}
+
         </div>
     );
 }
