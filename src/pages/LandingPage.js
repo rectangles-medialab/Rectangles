@@ -1,6 +1,8 @@
+import UploadPitch from "../components/UploadPitch";
+
 export default function LandingPage() {
 
     return (
-        <p>landingpage</p>
+        <UploadPitch />
     )
 }
