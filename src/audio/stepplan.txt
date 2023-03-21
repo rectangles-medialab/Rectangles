@@ -12,3 +12,14 @@ track of the number of times the word is recognized.
 6.When the user clicks the "stop recording" button, stop the SpeechRecognition object and the MediaRecorder object.
 
 7.Display the recorded audio file in a player so that the user can listen to it.
+
+----
+1.Set up a React component that includes a file input field where the user can select the mp4 file they want to transcribe. This can be done using the input element with the type="file" attribute.
+
+2.When the user selects a file, use the FileReader API to read the contents of the file as an ArrayBuffer. This can be done by adding an onChange event listener to the file input field and using the FileReader.readAsArrayBuffer() method to read the selected file.
+
+3.Once you have the file contents as an ArrayBuffer, you can use a library like ffmpeg.js to convert the mp4 file to an audio file format that can be transcribed, such as wav or mp3. ffmpeg.js is a JavaScript implementation of the popular ffmpeg command-line tool for working with audio and video files.
+
+4.Once you have the audio file in a format that can be transcribed, you can use a speech recognition library like the Web Speech API or the Google Cloud Speech-to-Text API to transcribe the audio to text. The Web Speech API is a built-in browser API that provides speech recognition functionality, while the Google Cloud Speech-to-Text API is a cloud-based service that provides more accurate and reliable speech recognition.
+
+5.Display the transcribed text to the user in your React component, either by rendering it as plain text or by using a text-to-speech library to read it aloud.

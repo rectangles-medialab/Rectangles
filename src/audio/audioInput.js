@@ -1,61 +1,60 @@
 import React, { useState } from "react";
+import ffmpeg from "ffmpeg.js";
+import DeepSpeech from "deepspeech";
 
 const VoiceCounter = () => {
-  const [recognizedWord, setRecognizedWord] = useState("");
-  const [counter, setCounter] = useState(0);
-  const [recording, setRecording] = useState(false);
-  const [audioUrl, setAudioUrl] = useState("");
 
-  const recognition = new window.webkitSpeechRecognition();
+  const [selectedFile, setSelectedFile] = useState(null);
+  const [transcription, setTranscription] = useState("");
 
-  const startRecording = () => {
-    recognition.start();
-    setRecording(true);
+  const handleFileSelect = (event) => {
+    setSelectedFile(event.target.files[0]);
   };
 
-  const stopRecording = () => {
-    recognition.stop();
-    setRecording(false);
-    const mediaRecorder = new MediaRecorder(stream);
-    mediaRecorder.addEventListener("dataavailable", handleDataAvailable);
-    mediaRecorder.start();
-  };
-
-  const handleDataAvailable = (event) => {
-    const blob = new Blob([event.data], { type: "audio/mp4" });
-    setAudioUrl(URL.createObjectURL(blob));
-  };
-
-  //testing with hello (needs to be changed to "Uh, eh, hm")
-  recognition.onresult = (event) => {
-    const word = event.results[0][0].transcript;
-    setRecognizedWord(word);
-    if (word === "hello") {
-      setCounter(counter + 1);
+  const transcribeAudio = async () => {
+    if (!selectedFile) {
+      return;
     }
-  };
 
-  const handleStartClick = () => {
-    startRecording();
-  };
+    try {
+      // Step 2: Read the contents of the file as an ArrayBuffer
+      const arrayBuffer = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          resolve(event.target.result);
+        };
+        reader.onerror = reject;
+        reader.readAsArrayBuffer(selectedFile);
+      });
 
-  const handleStopClick = () => {
-    stopRecording();
+      // Step 3: Convert the mp4 file to an audio file format using ffmpeg.js
+      const ffmpegInstance = await ffmpeg();
+      await ffmpegInstance.FS("writeFile", "input.mp4", new Uint8Array(arrayBuffer));
+      await ffmpegInstance.run("-i", "input.mp4", "output.wav");
+      const outputArrayBuffer = await ffmpegInstance.FS("readFile", "output.wav");
+
+      // Step 4: Transcribe the audio to text using Mozilla DeepSpeech
+      const model = new DeepSpeech.Model("path/to/deepspeech/model");
+      const scorer = new DeepSpeech.Scorer("path/to/deepspeech/scorer");
+      const audioBuffer = new Int16Array(outputArrayBuffer);
+      const result = model.stt(audioBuffer, scorer);
+      setTranscription(result);
+
+      // Step 5: Display the transcribed text to the user
+      // You could render it as plain text or use a text-to-speech library to read it aloud
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   return (
     <div>
-      <button onClick={handleStartClick} disabled={recording}>
-        Start Recording
-      </button>
-      <button onClick={handleStopClick} disabled={!recording}>
-        Stop Recording
-      </button>
-      <div>Recognized word: {recognizedWord}</div>
-      <div>Counter: {counter}</div>
-      <audio src={audioUrl} controls />
+      <input type="file" onChange={handleFileSelect} />
+      <button onClick={transcribeAudio}>Transcribe</button>
+      <div>{transcription}</div>
     </div>
   );
-};
+}
 
 export default VoiceCounter;
+
