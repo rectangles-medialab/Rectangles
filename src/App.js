@@ -6,7 +6,8 @@ import PitchbackPage from './components/PitchbackPage';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      //TODO landingpage.js
+      {/* <div className="App">
         <header className="App-header">
           <h1>Pitchback</h1>
           <a
@@ -18,9 +19,12 @@ function App() {
             Pitchback
           </a>
         </header>
-      </div>
+      </div> */}
       <Routes>
         <Route exact path="/pitchback" element={<PitchbackPage />} />
+        //TODO login.js
+        //TODO register.js
+        //TODO about.js of iets anders voor meer informatie, geen prio
       </Routes>
     </BrowserRouter>
   );
