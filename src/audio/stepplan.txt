@@ -1,0 +1,14 @@
+1.Set up a component that includes a button to start and stop recording, a display to show the recognized word, and a counter to keep 
+track of the number of times the word is recognized.
+
+2.Use the Web Speech API to set up a SpeechRecognition object that listens for speech input.
+
+3.When the user clicks the "start recording" button, start the SpeechRecognition object and listen for speech input.
+
+4.When the SpeechRecognition object recognizes a word, update the display to show the recognized word and increment the counter.
+
+5.Use the MediaRecorder API to record audio from the microphone and save it to an audio file.
+
+6.When the user clicks the "stop recording" button, stop the SpeechRecognition object and the MediaRecorder object.
+
+7.Display the recorded audio file in a player so that the user can listen to it.
