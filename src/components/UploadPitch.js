@@ -2,29 +2,46 @@ import React, { useState } from 'react';
 import '../App.css';
 
 export default function UploadPitch() {
-const [video, setVideo] = useState(null);
+    const [videoUrl, setVideoUrl] = useState('');
+    const [showNextSection, setShowNextSection] = useState(false);
 
-const handleFileChange = (event) => {
-const file = event.target.files[0];
-if (file) {
-setVideo(URL.createObjectURL(file));
-}
-};
+    const handleUpload = (event) => {
+        const url = URL.createObjectURL(event.target.files[0]);
+        setVideoUrl(url);
+    }
 
-  return (
-  <div className="pitchback-container">
-    <h1 className="pitchback-title">Weet je niet zeker of jouw pitch goed overkomt bij het publiek?</h1>
-    <p className="pitchback-description">Laat het checken door PitchBack! Dit is een tool die jou helpt feedback te geven over de pitch die je houdt. Hierbij geeft de tool feedback op jouw postuur en spraak.</p>
-    <p className="pitchback-upload-text">Upload hieronder jouw video</p>
-    <div className="pitchback-upload">
-    <input type="file" onChange={handleFileChange} />
-  </div>
-  {video && (
-  <div className="pitchback-video">
-    <video src={video} width="640" height="480" controls />
-    <button className="pitchback-remove-button" onClick={() => setVideo(null)}>Remove Video</button>
-  </div>
-    )}
-  </div>
-);
+    const handleNextSection = () => {
+        setShowNextSection(true);
+    }
+
+    return (
+        <div className="app-container">
+            <h1>Laat het checken door PitchBack!</h1>
+            <p>PitchBack is een tool die jou helpt feedback te geven over  de pitch die je houdt. Hierbij geeft de tool feedbaak op postuur en spraak.</p>
+
+            {videoUrl ? (
+
+                <div className="video-container">
+                    <div>
+                        <video src={videoUrl} controls width="500" height="300" />
+                    </div>
+                    <div className="next-button-container">
+                        <p>Check jou video nog een keer voordat we jou video laat checken door PitchBack. Misschien zijn er nog een paar dingen die je wilt toevoegen of verwijderen?</p>
+                        <button className="next-button" onClick={handleNextSection}>Volgende</button>
+                    </div>
+                </div>
+            ) : (
+                <div className="upload-container">
+                    <p>Upload jouw video</p>
+                    <input type="file" onChange={handleUpload} />
+                </div>
+            )}
+
+            {showNextSection && (
+                <div className="next-container">
+                    <p>Nice</p>
+                </div>
+            )}
+        </div>
+    );
 }
