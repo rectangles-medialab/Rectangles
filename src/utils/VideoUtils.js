@@ -58,9 +58,14 @@ export default class VideoUtils {
                     let poseNet = ml5.poseNet(this._videoObject, options, null)
 
                     this._videoObject.muted = true
+                    this._videoObject.playbackRate = 0.5
                     this._videoObject.play()
                     videoPlaying = true
-                    document.getElementById('video').play()
+
+                    let HTMLvideo = document.getElementById('video')
+                    HTMLvideo.playbackRate = 0.5
+                    HTMLvideo.play()
+                    HTMLvideo.muted = true
         
                     //only track pose if video is playing
                     poseNet.on('pose', (results) => {
@@ -89,10 +94,48 @@ export default class VideoUtils {
                 resolve()
 
                 console.log(this._videoPoses)
+                this.analyzeFile()
 
             })
 
         })
+    }
+
+    analyzeFile() {
+
+        let co = []
+
+        for (let i = 1; i < this._videoPoses.length; i++) {
+            
+            co.push({i: i, co: this.calculateCoefficient(
+                this._videoPoses[i].leftWrist.x,
+                this._videoPoses[i-1].leftWrist.x,
+                this._videoPoses[i].leftWrist.y,
+                this._videoPoses[i-1].leftWrist.y
+                )})
+            
+        }
+
+        const canvas = document.getElementById('canvas')
+        const ctx = canvas.getContext('2d')
+
+        ctx.strokeStyle = 'blue'
+        ctx.lineWidth = 2
+
+        ctx.beginPath()
+        ctx.moveTo(0, 0 + (canvas.clientHeight / 2))
+        for (const c of co) {
+            ctx.lineTo(
+                (c.i * 5), 
+                (c.co * 5) + (canvas.clientHeight / 2)
+                )
+        }
+        ctx.stroke()
+
+    }
+
+    calculateCoefficient(x1, y1, x2, y2) {
+        return ( x2 - x1 ) / ( y2 - y1 )
     }
 
 

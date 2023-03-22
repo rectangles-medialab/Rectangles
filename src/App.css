@@ -159,3 +159,7 @@ code {
   height: 52px;
   width: 43px;
 }
+
+canvas {
+  background-color: white!important;
+}
