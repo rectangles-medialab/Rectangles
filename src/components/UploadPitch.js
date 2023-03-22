@@ -1,17 +1,39 @@
 import React, { useState } from 'react';
+import VideoUtils from '../utils/VideoUtils'
 import '../App.css';
 
-export default function UploadPitch() {
-    const [videoUrl, setVideoUrl] = useState('');
-    const [showNextSection, setShowNextSection] = useState(false);
+const videoUtils = new VideoUtils()
 
-    const handleUpload = (event) => {
-        const url = URL.createObjectURL(event.target.files[0]);
-        setVideoUrl(url);
+export default function UploadPitch() {
+    const [videoUploaded, setVideoUploaded] = useState(false)
+    const [uploadError, setUploadError] = useState(false)
+    const [processingBusy, setProcessingBusy] = useState(false)
+    const [videoProcessed, setVideoProcessed] = useState(false)
+    const [processError, setProcessError] = useState(false)
+
+    const handleFileUpload = async (e) => {
+
+        await videoUtils.upload(e)
+            .then(() => {
+                //if previous upload attempt failed, remove upload error
+                setUploadError(false)
+                setVideoUploaded(true)
+            })
+            .catch(() => setUploadError(true))
+
     }
 
-    const handleNextSection = () => {
-        setShowNextSection(true);
+    const handleStartVideoProcessing = async () => {
+        setProcessingBusy(true)
+
+        //video utils already has the uploaded file saved
+        await videoUtils.processFile()
+            .then(() => {
+                setProcessError(false)
+                setVideoProcessed(true)
+                setProcessingBusy(false)
+            })
+            .catch(() => setProcessError(true))
     }
 
     return (
@@ -19,29 +41,33 @@ export default function UploadPitch() {
             <h1>Laat het checken door PitchBack!</h1>
             <p>PitchBack is een tool die jou helpt feedback te geven over  de pitch die je houdt. Hierbij geeft de tool feedbaak op postuur en spraak.</p>
 
-            {videoUrl ? (
-
+            {!videoUploaded ? (
+                // input field
+                <div className="">
+                    {!uploadError ? (
+                        <p>Upload jouw video</p>
+                    ) : (
+                        <p>Zorg ervoor dat je geuploade bestand een video is</p> //error text if file is not a video
+                    )}
+                    <input type="file" onChange={handleFileUpload} />
+                </div>
+            ) : (
+                // video uploaded, show file in video element and show process button
                 <div className="video-container">
                     <div>
-                        <video src={videoUrl} controls width="500" height="300" />
+                        <video id="video" src={videoUtils.getFileUrl()} width="500" height="300" />
                     </div>
                     <div className="next-button-container">
                         <p>Check jou video nog een keer voordat we jou video laat checken door PitchBack. Misschien zijn er nog een paar dingen die je wilt toevoegen of verwijderen?</p>
-                        <button className="next-button" onClick={handleNextSection}>Volgende</button>
+                        {!processingBusy ? (
+                            <button className="next-button" onClick={handleStartVideoProcessing}>Check video</button>
+                        ) : (
+                            <p>Checking...</p>
+                        )}
                     </div>
-                </div>
-            ) : (
-                <div className="upload-container">
-                    <p>Upload jouw video</p>
-                    <input type="file" onChange={handleUpload} />
                 </div>
             )}
 
-            {showNextSection && (
-                <div className="next-container">
-                    <p>Nice</p>
-                </div>
-            )}
         </div>
     );
 }
