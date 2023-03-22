@@ -10,7 +10,11 @@ function VideoInput() {
     const handleUpload = async (e) => {
         console.log(e.target.files[0])
         setFile(e.target.files[0]);
+
+        //create a non-visible video element
         const videoObject = document.createElement('video')
+
+        //put video file in video HTMLElement
         videoObject.src = URL.createObjectURL(e.target.files[0])
         console.log(videoObject)
 
@@ -21,23 +25,31 @@ function VideoInput() {
         let poseNet
         const video = document.getElementById('video');
         video.type = file.type
+
+        //checking if video has correct type (is video?)
         if(videoFileTypes.indexOf(file.type) === -1) { throw new Error('File is not a video')}
+        
+        //adding video properties
         video.width = 500
         video.height = 500
         video.src = URL.createObjectURL(file)
+
+        //waiting for video to be loaded in DOM
         video.addEventListener('canplay', () => {
+            //start tracking pose in video
             poseNet = ml5.poseNet(video, (e) => console.log(e));
             video.play()
             videoPlaying = true
 
+            //only track pose if video is playing
             poseNet.on('pose', (results) => {
                 if (videoPlaying) {
                     console.log(results)
                 }
             });
         })
-        // const video = createVideo('testvideo.mp4', () => console.log('video loaded)'))
-        
+
+        //stop video tracking if video has ended
         video.addEventListener('ended', () => {
             videoPlaying = false
         })
