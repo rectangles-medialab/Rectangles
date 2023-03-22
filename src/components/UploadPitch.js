@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import VideoUtils from '../utils/VideoUtils'
 import '../App.css';
+import ml5 from 'ml5';
+import StartProcessor from "./StartProcessor";
+import downloadImage from './download.png';
 
 const videoUtils = new VideoUtils()
 
@@ -38,8 +41,8 @@ export default function UploadPitch() {
 
     return (
         <div className="app-container">
-            <h1>Laat het checken door PitchBack!</h1>
-            <p>PitchBack is een tool die jou helpt feedback te geven over  de pitch die je houdt. Hierbij geeft de tool feedbaak op postuur en spraak.</p>
+            <h1>Weet je niet zeker of jouw pitch goed overkomt bij het publiek?</h1>
+            <p>Laat het checken door PitchBack! Dit is een tool die jou helpt feedback te geven over de pitch die je houdt. Hierbij geeft de tool feedback op jouw postuur en spraak.</p>
 
             {!videoUploaded ? (
                 // input field
