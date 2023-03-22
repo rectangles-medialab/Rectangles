@@ -1,57 +1,42 @@
 import React, { useState } from 'react';
+import VideoUtils from '../utils/VideoUtils'
 import '../App.css';
 import ml5 from 'ml5';
 import StartProcessor from "./StartProcessor";
 import downloadImage from './download.png';
 
+const videoUtils = new VideoUtils()
+
 export default function UploadPitch() {
-    const [file, setFile] = useState(null);
-    const [videoUrl, setVideoUrl] = useState('');
-    const [showNextSection, setShowNextSection] = useState(false);
-    const videoFileTypes = ['video/mp4', 'video/webm', 'video/ogg', 'video/quicktime'];
+    const [videoUploaded, setVideoUploaded] = useState(false)
+    const [uploadError, setUploadError] = useState(false)
+    const [processingBusy, setProcessingBusy] = useState(false)
+    const [videoProcessed, setVideoProcessed] = useState(false)
+    const [processError, setProcessError] = useState(false)
 
+    const handleFileUpload = async (e) => {
 
-    const handleUpload = (event) => {
-        const url = URL.createObjectURL(event.target.files[0]);
-        setVideoUrl(url);
-        console.log(event.target.files[0])
-        setFile(event.target.files[0]);
-        const videoObject = document.createElement('video')
-        videoObject.src = URL.createObjectURL(event.target.files[0])
-        console.log(videoObject)
+        await videoUtils.upload(e)
+            .then(() => {
+                //if previous upload attempt failed, remove upload error
+                setUploadError(false)
+                setVideoUploaded(true)
+            })
+            .catch(() => setUploadError(true))
+
     }
 
-    const handleClick = () => {
-        let videoPlaying = false
-        let poseNet
-        const video = document.getElementById('video');
-        console.log(video)
-        video.type = file.type
-        if(videoFileTypes.indexOf(file.type) === -1) { throw new Error('File is not a video')}
-        video.width = 500
-        video.height = 500
-        video.src = URL.createObjectURL(file)
-        video.addEventListener('canplay', () => {
-            poseNet = ml5.poseNet(video, (e) => console.log(e));
-            video.play()
-            videoPlaying = true
+    const handleStartVideoProcessing = async () => {
+        setProcessingBusy(true)
 
-            poseNet.on('pose', (results) => {
-                if (videoPlaying) {
-                    console.log(results)
-                }
-            });
-        })
-        // const video = createVideo('testvideo.mp4', () => console.log('video loaded)'))
-        
-        video.addEventListener('ended', () => {
-            videoPlaying = false
-        })
-        
-    }
-
-    const handleNextSection = () => {
-        setShowNextSection(true);
+        //video utils already has the uploaded file saved
+        await videoUtils.processFile()
+            .then(() => {
+                setProcessError(false)
+                setVideoProcessed(true)
+                setProcessingBusy(false)
+            })
+            .catch(() => setProcessError(true))
     }
 
     return (
@@ -59,32 +44,32 @@ export default function UploadPitch() {
             <h1>Weet je niet zeker of jouw pitch goed overkomt bij het publiek?</h1>
             <p>Laat het checken door PitchBack! Dit is een tool die jou helpt feedback te geven over de pitch die je houdt. Hierbij geeft de tool feedback op jouw postuur en spraak.</p>
 
-            {videoUrl ? (
-
+            {!videoUploaded ? (
+                // input field
+                <div className="">
+                    {!uploadError ? (
+                        <p>Upload jouw video</p>
+                    ) : (
+                        <p>Zorg ervoor dat je geuploade bestand een video is</p> //error text if file is not a video
+                    )}
+                    <input type="file" onChange={handleFileUpload} />
+                </div>
+            ) : (
+                // video uploaded, show file in video element and show process button
                 <div className="video-container">
                     <div>
-                        <video src={videoUrl} controls width="500" height="300" id="video"/>
+                        <video id="video" src={videoUtils.getFileUrl()} width="500" height="300" />
                     </div>
                     <div className="next-button-container">
                         <p>Check jou video nog een keer voordat we jou video laat checken door PitchBack. Misschien zijn er nog een paar dingen die je wilt toevoegen of verwijderen?</p>
-                        <button className="next-button" onClick={handleClick}>Checken!</button>
-
+                        {!processingBusy ? (
+                            <button className="next-button" onClick={handleStartVideoProcessing}>Check video</button>
+                        ) : (
+                            <p>Checking...</p>
+                        )}
                     </div>
                 </div>
-            ) : (
-                <div className="upload-container">
-                        <p>Upload hieronder jouw video</p>
-                        <input type="file" onChange={handleUpload} id="actual-btn" hiddenid="actual-btn" hidden/>
-                        <label for="actual-btn">
-                            <img src={downloadImage} alt="Download Button" />
-                        </label>
-                        {/* <span id="file-chosen">No file chosen</span> */}
-                </div>
-                
-
             )}
-
-            {showNextSection && <StartProcessor />}
 
         </div>
     );
