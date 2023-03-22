@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import VideoUtils from '../utils/VideoUtils'
 import '../App.css';
-import StartProcessor from "./StartProcessor";
+import FeedbackList from "./FeedbackList";
 import downloadImage from './download.png';
 
 const videoUtils = new VideoUtils()
@@ -13,6 +13,7 @@ export default function UploadPitch() {
     const [videoProcessed, setVideoProcessed] = useState(false)
     const [processError, setProcessError] = useState(false)
 
+    
     const handleFileUpload = async (e) => {
 
         await videoUtils.upload(e)
@@ -24,6 +25,7 @@ export default function UploadPitch() {
             .catch(() => setUploadError(true))
 
     }
+
 
     const handleStartVideoProcessing = async () => {
         setProcessingBusy(true)
@@ -38,43 +40,71 @@ export default function UploadPitch() {
             .catch(() => setProcessError(true))
     }
 
+    
+    //components used in return 
+
+    const uploadFieldComponent = () => {
+        return (
+            <div className="upload-container">
+
+                {!uploadError ? (
+                    <p>Upload jouw video</p>
+                ) : (
+                    <p>Zorg ervoor dat je geuploade bestand een video is</p> //error text if file is not a video
+                )}
+
+                <input type="file" onChange={handleFileUpload} id="actual-btn" hiddenid="actual-btn" hidden />
+                <label for="actual-btn">
+                    <img src={downloadImage} alt="Download Button" />
+                </label>
+
+            </div>
+        )
+    }
+
+
+    const videoStartCheckComponent = () => {
+        return (
+            <div className="video-container">
+                <div>
+                    <video id="video" src={videoUtils.getFileUrl()} width="500" height="300" />
+                </div>
+                <div className="next-button-container">
+                    <p>Check jou video nog een keer voordat we jou video laat checken door PitchBack. Misschien zijn er nog een paar dingen die je wilt toevoegen of verwijderen?</p>
+                    {!processingBusy ? (
+                        <button className="next-button" onClick={handleStartVideoProcessing}>Check video</button>
+                    ) : (
+                        <p>Checking...</p>
+                    )}
+                </div>
+            </div>
+        )
+    }
+
+
     return (
         <div className="app-container">
             <h1>Weet je niet zeker of jouw pitch goed overkomt bij het publiek?</h1>
             <p>Laat het checken door PitchBack! Dit is een tool die jou helpt feedback te geven over de pitch die je houdt. Hierbij geeft de tool feedback op jouw postuur en spraak.</p>
 
-            {!videoUploaded ? (
-                // input field
-                <div className="upload-container">
-                    {!uploadError ? (
-                        <p>Upload jouw video</p>
-                    ) : (
-                        <p>Zorg ervoor dat je geuploade bestand een video is</p> //error text if file is not a video
-                    )}
-                    {/* <input type="file" onChange={handleFileUpload} /> */}
-                    <p>Upload hieronder jouw video</p>
-                        <input type="file" onChange={handleFileUpload} id="actual-btn" hiddenid="actual-btn" hidden/>
-                        <label for="actual-btn">
-                            <img src={downloadImage} alt="Download Button" />
-                        </label>
-                        {/* <span id="file-chosen">No file chosen</span> */}
-                </div>
-            ) : (
-                // video uploaded, show file in video element and show process button
-                <div className="video-container">
-                    <div>
-                        <video id="video" src={videoUtils.getFileUrl()} width="500" height="300" />
-                    </div>
-                    <div className="next-button-container">
-                        <p>Check jou video nog een keer voordat we jou video laat checken door PitchBack. Misschien zijn er nog een paar dingen die je wilt toevoegen of verwijderen?</p>
-                        {!processingBusy ? (
-                            <button className="next-button" onClick={handleStartVideoProcessing}>Check video</button>
-                        ) : (
-                            <p>Checking...</p>
-                        )}
-                    </div>
-                </div>
-            )}
+            {videoProcessed == false ?
+
+                videoUploaded == false ? (
+
+                    // upload video
+                    uploadFieldComponent()
+
+                ) : (
+
+                    // video uploaded, start checking
+                    videoStartCheckComponent()
+
+                ) : (
+
+                    // feedback
+                    <FeedbackList />
+
+                )}
 
         </div>
     );
