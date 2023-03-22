@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import VideoUtils from '../utils/VideoUtils'
 import '../App.css';
 import FeedbackList from "./FeedbackList";
-import downloadImage from './download.png';
+import downloadImage from '../assets/download.png';
 
 const videoUtils = new VideoUtils()
 
