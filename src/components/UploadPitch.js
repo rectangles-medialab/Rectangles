@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import VideoUtils from '../utils/VideoUtils'
 import '../App.css';
-import ml5 from 'ml5';
 import StartProcessor from "./StartProcessor";
 import downloadImage from './download.png';
 
@@ -46,13 +45,19 @@ export default function UploadPitch() {
 
             {!videoUploaded ? (
                 // input field
-                <div className="">
+                <div className="upload-container">
                     {!uploadError ? (
                         <p>Upload jouw video</p>
                     ) : (
                         <p>Zorg ervoor dat je geuploade bestand een video is</p> //error text if file is not a video
                     )}
-                    <input type="file" onChange={handleFileUpload} />
+                    {/* <input type="file" onChange={handleFileUpload} /> */}
+                    <p>Upload hieronder jouw video</p>
+                        <input type="file" onChange={handleFileUpload} id="actual-btn" hiddenid="actual-btn" hidden/>
+                        <label for="actual-btn">
+                            <img src={downloadImage} alt="Download Button" />
+                        </label>
+                        {/* <span id="file-chosen">No file chosen</span> */}
                 </div>
             ) : (
                 // video uploaded, show file in video element and show process button
