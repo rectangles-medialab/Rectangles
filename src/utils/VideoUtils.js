@@ -108,10 +108,10 @@ export default class VideoUtils {
         for (let i = 1; i < this._videoPoses.length; i++) {
             
             co.push({i: i, co: this.calculateCoefficient(
-                this._videoPoses[i].leftWrist.x,
-                this._videoPoses[i-1].leftWrist.x,
-                this._videoPoses[i].leftWrist.y,
-                this._videoPoses[i-1].leftWrist.y
+                this._videoPoses[i].rightWrist.x,
+                this._videoPoses[i-1].rightWrist.x,
+                this._videoPoses[i].rightWrist.y,
+                this._videoPoses[i-1].rightWrist.y
                 )})
             
         }
