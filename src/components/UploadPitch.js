@@ -54,7 +54,7 @@ export default function UploadPitch() {
                 )}
 
                 <input type="file" onChange={handleFileUpload} id="actual-btn" hiddenid="actual-btn" hidden />
-                <label for="actual-btn">
+                <label htmlFor="actual-btn">
                     <img src={downloadImage} alt="Download Button" />
                 </label>
 
