@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css';
 import StartProcessor from "./StartProcessor";
-import downloadImage from './download.png';
+import downloadImage from '../images/download.png';
 
 export default function UploadPitch() {
     const [videoUrl, setVideoUrl] = useState('');
