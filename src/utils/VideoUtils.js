@@ -83,10 +83,10 @@ export default class VideoUtils {
             } catch (e) {
 
                 if (!this._videoObjectReady) {
-                    setTimeout(() => this.processFile(), 1000)
-                } else {
-                    reject(new Error('Video processing failed: ' + e.message))
-                }
+                setTimeout(() => this.processFile(), 1000)
+            } else {
+                reject(new Error('Video processing failed: ' + e.message))
+            }
 
             } 
 
