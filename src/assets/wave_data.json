@@ -19,9 +19,7 @@
                 "leftKnee": 0.8423659880247019,
                 "rightKnee": 0.8626760155809997,
                 "leftAnkle": 1.013667893609148,
-                "rightAnkle": 0.9430782173825244,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9430782173825244
             },
             {
                 "nose": 1.0285551527650127,
@@ -40,9 +38,7 @@
                 "leftKnee": 0.9782651813163202,
                 "rightKnee": 0.9896512221946516,
                 "leftAnkle": 0.9765207587325928,
-                "rightAnkle": 1.0126487087757272,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0126487087757272
             },
             {
                 "nose": 0.9820877005420028,
@@ -61,9 +57,7 @@
                 "leftKnee": 0.9756099431093187,
                 "rightKnee": 1.0013624189654682,
                 "leftAnkle": 1.0586224427659572,
-                "rightAnkle": 1.0082217502303803,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0082217502303803
             },
             {
                 "nose": 1.0036776485150716,
@@ -82,9 +76,7 @@
                 "leftKnee": -0.6088474196857406,
                 "rightKnee": 0.9273377543795673,
                 "leftAnkle": 1.1290483440134467,
-                "rightAnkle": 1.0076550210277064,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0076550210277064
             },
             {
                 "nose": 0.9947202700064519,
@@ -103,9 +95,7 @@
                 "leftKnee": -1.2737051547524652,
                 "rightKnee": 0.9719987413211891,
                 "leftAnkle": 0.8913335164198816,
-                "rightAnkle": 1.008658978928673,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.008658978928673
             },
             {
                 "nose": 0.9884009725193174,
@@ -124,9 +114,7 @@
                 "leftKnee": 1.3276666344098933,
                 "rightKnee": 1.1154605036238836,
                 "leftAnkle": 1.000894580447317,
-                "rightAnkle": 1.0110151974054147,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0110151974054147
             },
             {
                 "nose": 0.997624094491411,
@@ -145,9 +133,7 @@
                 "leftKnee": 0.9935958288076989,
                 "rightKnee": 1.0131660911112348,
                 "leftAnkle": 1.1575560473674869,
-                "rightAnkle": 1.0122919633827336,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0122919633827336
             },
             {
                 "nose": 0.9870226694853703,
@@ -166,9 +152,7 @@
                 "leftKnee": 0.7812963072244775,
                 "rightKnee": 0.7078648314271492,
                 "leftAnkle": 0.8155498584764328,
-                "rightAnkle": 1.0008052681793767,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0008052681793767
             },
             {
                 "nose": 1.0017211237441452,
@@ -187,9 +171,7 @@
                 "leftKnee": 0.9894291248841692,
                 "rightKnee": 1.1819878758731153,
                 "leftAnkle": 1.0241773773136928,
-                "rightAnkle": 1.033840789021564,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.033840789021564
             },
             {
                 "nose": 1.0050516098701603,
@@ -208,9 +190,7 @@
                 "leftKnee": 1.0646406706211784,
                 "rightKnee": 0.8809118664189628,
                 "leftAnkle": 1.028160318103846,
-                "rightAnkle": 0.9626586165237998,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9626586165237998
             },
             {
                 "nose": 1.0073525651750423,
@@ -229,9 +209,7 @@
                 "leftKnee": 1.130206035817863,
                 "rightKnee": 1.354479146641032,
                 "leftAnkle": 0.9913401980209943,
-                "rightAnkle": 0.9855282909058056,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9855282909058056
             },
             {
                 "nose": 1.0110193591339627,
@@ -250,9 +228,7 @@
                 "leftKnee": 1.0791142282087867,
                 "rightKnee": 1.1490449973217682,
                 "leftAnkle": 0.9954894673058732,
-                "rightAnkle": 1.0166428928756224,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0166428928756224
             },
             {
                 "nose": 0.9924164253652482,
@@ -271,9 +247,7 @@
                 "leftKnee": 1.0357848043170705,
                 "rightKnee": 0.9778263386432943,
                 "leftAnkle": 0.9829376182516317,
-                "rightAnkle": 1.007050954078301,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.007050954078301
             },
             {
                 "nose": 0.9996431247562563,
@@ -292,9 +266,7 @@
                 "leftKnee": 0.96312715229207,
                 "rightKnee": 1.0317733943043985,
                 "leftAnkle": 1.0101053297464102,
-                "rightAnkle": 0.9976317542745147,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9976317542745147
             },
             {
                 "nose": 0.9998099058386546,
@@ -313,9 +285,7 @@
                 "leftKnee": 0.9426647292946765,
                 "rightKnee": 0.8372928389599614,
                 "leftAnkle": 1.0046408089185797,
-                "rightAnkle": 0.9891536426504705,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9891536426504705
             },
             {
                 "nose": 1.0152782570828078,
@@ -334,9 +304,7 @@
                 "leftKnee": 1.104734358305968,
                 "rightKnee": 1.0175883105653638,
                 "leftAnkle": 1.0042525946006393,
-                "rightAnkle": 1.032388021620004,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.032388021620004
             },
             {
                 "nose": 0.9857900707992668,
@@ -355,9 +323,7 @@
                 "leftKnee": 0.6749152998086214,
                 "rightKnee": 0.8943831344752468,
                 "leftAnkle": 0.99975742614915,
-                "rightAnkle": 1.0003321149598774,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0003321149598774
             },
             {
                 "nose": 1.0030511536046829,
@@ -376,9 +342,7 @@
                 "leftKnee": 1.1721817372839536,
                 "rightKnee": 1.0279945521210048,
                 "leftAnkle": 0.994012889888422,
-                "rightAnkle": 0.9853785235253651,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9853785235253651
             },
             {
                 "nose": 0.9639358992389848,
@@ -397,9 +361,7 @@
                 "leftKnee": 0.6367672364808764,
                 "rightKnee": 0.9816073785164616,
                 "leftAnkle": 0.9646041765970781,
-                "rightAnkle": 0.9555496337072811,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9555496337072811
             },
             {
                 "nose": 0.9842645126648846,
@@ -418,9 +380,7 @@
                 "leftKnee": 2.9941261605867306,
                 "rightKnee": 1.031168319898547,
                 "leftAnkle": 1.0057007328941567,
-                "rightAnkle": 1.0467810881283852,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0467810881283852
             },
             {
                 "nose": 0.9571327793649314,
@@ -439,9 +399,7 @@
                 "leftKnee": 0.4846916728805499,
                 "rightKnee": 0.9645931497746019,
                 "leftAnkle": 1.0126072775039925,
-                "rightAnkle": 0.9752254171469248,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9752254171469248
             },
             {
                 "nose": 0.9893136072187875,
@@ -460,9 +418,7 @@
                 "leftKnee": 1.0305417121890303,
                 "rightKnee": 1.067605256818177,
                 "leftAnkle": 0.9889562305160672,
-                "rightAnkle": 0.9733599469447459,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9733599469447459
             },
             {
                 "nose": 1.002110701501154,
@@ -481,9 +437,7 @@
                 "leftKnee": 2.00427453143124,
                 "rightKnee": 1.0835105125229898,
                 "leftAnkle": 0.9791440094037966,
-                "rightAnkle": 0.9884576767709553,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9884576767709553
             },
             {
                 "nose": 1.0056412942835717,
@@ -502,9 +456,7 @@
                 "leftKnee": 1.0158287824731447,
                 "rightKnee": 0.971877603979933,
                 "leftAnkle": 1.0035163667458444,
-                "rightAnkle": 1.0230995848328777,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0230995848328777
             },
             {
                 "nose": 1.0039907740065104,
@@ -523,9 +475,7 @@
                 "leftKnee": -0.023547578864930245,
                 "rightKnee": 1.0038259089418455,
                 "leftAnkle": 1.0101818705760623,
-                "rightAnkle": 0.9988060682412958,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9988060682412958
             },
             {
                 "nose": 0.997637295534787,
@@ -544,9 +494,7 @@
                 "leftKnee": -42.83743938615869,
                 "rightKnee": 0.9650478676079834,
                 "leftAnkle": 1.0209161760791212,
-                "rightAnkle": 0.9799854832810423,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9799854832810423
             },
             {
                 "nose": 1.0041646621182407,
@@ -565,9 +513,7 @@
                 "leftKnee": 0.992008362443303,
                 "rightKnee": 0.9584888274684772,
                 "leftAnkle": 0.9856986068146368,
-                "rightAnkle": 1.0156006147319545,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0156006147319545
             },
             {
                 "nose": 1.0368989056436508,
@@ -586,9 +532,7 @@
                 "leftKnee": 0.6637443400114508,
                 "rightKnee": 1.0964062309984595,
                 "leftAnkle": 0.9717800546556334,
-                "rightAnkle": 1.0362390658365406,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0362390658365406
             },
             {
                 "nose": 0.9652944549430106,
@@ -607,9 +551,7 @@
                 "leftKnee": 0.9597311841443773,
                 "rightKnee": 0.9456320433348925,
                 "leftAnkle": 0.9880123826672607,
-                "rightAnkle": 1.0001590652240597,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0001590652240597
             },
             {
                 "nose": 1.0611232098304952,
@@ -628,9 +570,7 @@
                 "leftKnee": 0.9331344892225243,
                 "rightKnee": 1.0012418415288953,
                 "leftAnkle": 1.0154254594234247,
-                "rightAnkle": 1.010787160319144,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.010787160319144
             },
             {
                 "nose": 1.0144758061712291,
@@ -649,9 +589,7 @@
                 "leftKnee": 0.9563440393673585,
                 "rightKnee": 0.8998623195935135,
                 "leftAnkle": 1.004506093978158,
-                "rightAnkle": 1.0024352971210626,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0024352971210626
             },
             {
                 "nose": 1.012757558268823,
@@ -670,9 +608,7 @@
                 "leftKnee": 1.0278202572358566,
                 "rightKnee": 1.1755747639444474,
                 "leftAnkle": 1.0132726383506265,
-                "rightAnkle": 1.0195029188709863,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0195029188709863
             },
             {
                 "nose": 0.9945332425517607,
@@ -691,9 +627,7 @@
                 "leftKnee": 0.9687640121408018,
                 "rightKnee": 0.9419995048156861,
                 "leftAnkle": 1.004682745783949,
-                "rightAnkle": 1.0020039715399176,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0020039715399176
             },
             {
                 "nose": 1.0088807279125989,
@@ -712,9 +646,7 @@
                 "leftKnee": 1.0077032184903059,
                 "rightKnee": 0.9553194176634991,
                 "leftAnkle": 1.0092427064987637,
-                "rightAnkle": 0.9799467847119842,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9799467847119842
             },
             {
                 "nose": 1.0064481640293557,
@@ -733,9 +665,7 @@
                 "leftKnee": 0.9394112832596974,
                 "rightKnee": 0.9868249496372604,
                 "leftAnkle": 1.0309220292145924,
-                "rightAnkle": 1.000141111775509,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.000141111775509
             },
             {
                 "nose": 1.0048966405110757,
@@ -754,9 +684,7 @@
                 "leftKnee": 1.0350872589814413,
                 "rightKnee": 1.0160009724592596,
                 "leftAnkle": 1.0105316723233015,
-                "rightAnkle": 0.9803829716715311,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9803829716715311
             }
         ]
     },
@@ -780,9 +708,7 @@
                 "leftKnee": 0.3133352951325406,
                 "rightKnee": 1.3783553386379654,
                 "leftAnkle": 1.0169153074587804,
-                "rightAnkle": 0.9923599170298164,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9923599170298164
             },
             {
                 "nose": 0.972825614230271,
@@ -801,9 +727,7 @@
                 "leftKnee": 0.10126645025502519,
                 "rightKnee": 1.0322374041892135,
                 "leftAnkle": 0.8887304578344729,
-                "rightAnkle": 0.9712248281701226,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9712248281701226
             },
             {
                 "nose": 1,
@@ -822,9 +746,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 0.992592124091582,
@@ -843,9 +765,7 @@
                 "leftKnee": -4.9702065169933185,
                 "rightKnee": 0.5164924265029764,
                 "leftAnkle": 1.1518632377752152,
-                "rightAnkle": 0.976918025742832,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.976918025742832
             },
             {
                 "nose": 1.0119120135804054,
@@ -864,9 +784,7 @@
                 "leftKnee": 1.0298522956854586,
                 "rightKnee": 0.9400290354954054,
                 "leftAnkle": 0.9951621661839005,
-                "rightAnkle": 0.9899541574082358,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9899541574082358
             },
             {
                 "nose": 0.9978940969228842,
@@ -885,9 +803,7 @@
                 "leftKnee": 0.3473732094764011,
                 "rightKnee": 2.300558615618552,
                 "leftAnkle": 0.8754576427568616,
-                "rightAnkle": 1.0366188577350173,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0366188577350173
             },
             {
                 "nose": 0.9622730350891253,
@@ -906,9 +822,7 @@
                 "leftKnee": -7.382007172725761,
                 "rightKnee": 1.1065009437597653,
                 "leftAnkle": 1.0619739749199288,
-                "rightAnkle": 1.0577570303475738,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0577570303475738
             },
             {
                 "nose": 1.015945004491391,
@@ -927,9 +841,7 @@
                 "leftKnee": 1.0464708651210985,
                 "rightKnee": 0.9393433285685258,
                 "leftAnkle": 0.982436658908291,
-                "rightAnkle": 0.9769168629062926,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9769168629062926
             },
             {
                 "nose": 1.014906103373813,
@@ -948,9 +860,7 @@
                 "leftKnee": 0.8803157675741059,
                 "rightKnee": 0.9108511348456092,
                 "leftAnkle": 0.8970428092981483,
-                "rightAnkle": 0.968902261578382,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.968902261578382
             },
             {
                 "nose": 0.9881814244814344,
@@ -969,9 +879,7 @@
                 "leftKnee": 1.7437536379670284,
                 "rightKnee": 0.8687484358317296,
                 "leftAnkle": 1.068946802052178,
-                "rightAnkle": 0.9986212207873357,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9986212207873357
             },
             {
                 "nose": 1,
@@ -990,9 +898,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 1.0001866807791813,
@@ -1011,9 +917,7 @@
                 "leftKnee": 1.0473821986243712,
                 "rightKnee": 0.511655379332725,
                 "leftAnkle": 1.0497575851284529,
-                "rightAnkle": 1.0111174103050493,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0111174103050493
             },
             {
                 "nose": 1.0139615301448037,
@@ -1032,9 +936,7 @@
                 "leftKnee": 0.730784414862423,
                 "rightKnee": 1.3011551570817086,
                 "leftAnkle": 0.9769895424710736,
-                "rightAnkle": 0.986418755292521,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.986418755292521
             },
             {
                 "nose": 0.9959749053350324,
@@ -1053,9 +955,7 @@
                 "leftKnee": 1.0909730323059799,
                 "rightKnee": 1.4211743249463609,
                 "leftAnkle": 0.9767427201594926,
-                "rightAnkle": 1.014819295407692,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.014819295407692
             },
             {
                 "nose": 1.035941455173531,
@@ -1074,9 +974,7 @@
                 "leftKnee": 1.0294024384562546,
                 "rightKnee": 1.1909865076207937,
                 "leftAnkle": 1.0249548206364303,
-                "rightAnkle": 1.0325693395285933,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0325693395285933
             },
             {
                 "nose": 0.9858717391840266,
@@ -1095,9 +993,7 @@
                 "leftKnee": 1.5253793508188396,
                 "rightKnee": 0.8971817122712227,
                 "leftAnkle": 0.9478717761449518,
-                "rightAnkle": 1.000916043068975,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.000916043068975
             },
             {
                 "nose": 1.0101848177720119,
@@ -1116,9 +1012,7 @@
                 "leftKnee": 1.1876417350208952,
                 "rightKnee": 0.8533337838130726,
                 "leftAnkle": 0.9926926306449783,
-                "rightAnkle": 1.005939336738621,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.005939336738621
             },
             {
                 "nose": 1.0146732255516362,
@@ -1137,9 +1031,7 @@
                 "leftKnee": 1.08434242723262,
                 "rightKnee": 0.9444653199593936,
                 "leftAnkle": 0.9908027176908591,
-                "rightAnkle": 1.0251745190595987,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0251745190595987
             },
             {
                 "nose": 0.99520797655944,
@@ -1158,9 +1050,7 @@
                 "leftKnee": 0.9414325803033003,
                 "rightKnee": 0.9118789068586692,
                 "leftAnkle": 1.0203755464200763,
-                "rightAnkle": 0.9470380080706872,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9470380080706872
             },
             {
                 "nose": 1.0046538499965776,
@@ -1179,9 +1069,7 @@
                 "leftKnee": 1.1577762016011506,
                 "rightKnee": 1.0216133954043498,
                 "leftAnkle": 1.0778430284150162,
-                "rightAnkle": 1.0669213500349912,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0669213500349912
             },
             {
                 "nose": 0.9954537000877375,
@@ -1200,9 +1088,7 @@
                 "leftKnee": 1.0046909751910154,
                 "rightKnee": 1.1689922783381295,
                 "leftAnkle": 1.1224792588297172,
-                "rightAnkle": 1.0194969883899219,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0194969883899219
             },
             {
                 "nose": 1.000190616629392,
@@ -1221,9 +1107,7 @@
                 "leftKnee": 0.9474169441190702,
                 "rightKnee": 0.8170722849912958,
                 "leftAnkle": 0.9454561587908474,
-                "rightAnkle": 0.9685862763864309,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9685862763864309
             },
             {
                 "nose": 1.0269731170778147,
@@ -1242,9 +1126,7 @@
                 "leftKnee": 1.1126505012200532,
                 "rightKnee": 0.9374226644668971,
                 "leftAnkle": 0.9508114072239444,
-                "rightAnkle": 0.9963478575095241,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9963478575095241
             },
             {
                 "nose": 1.0157172384322934,
@@ -1263,9 +1145,7 @@
                 "leftKnee": 1.045773263971709,
                 "rightKnee": 0.9990470053922443,
                 "leftAnkle": 1.055678981067013,
-                "rightAnkle": 1.011986026372551,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.011986026372551
             },
             {
                 "nose": 1.0019316845159243,
@@ -1284,9 +1164,7 @@
                 "leftKnee": 1.0204674501518602,
                 "rightKnee": 0.8598544656217442,
                 "leftAnkle": 1.0911637536334713,
-                "rightAnkle": 1.0220523587141386,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0220523587141386
             },
             {
                 "nose": 0.9927504304170244,
@@ -1305,9 +1183,7 @@
                 "leftKnee": 0.9797862161992568,
                 "rightKnee": 0.855201327279765,
                 "leftAnkle": 0.947323813153011,
-                "rightAnkle": 0.9717784266861853,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9717784266861853
             },
             {
                 "nose": 0.9987450865242933,
@@ -1326,9 +1202,7 @@
                 "leftKnee": 0.9950835776408373,
                 "rightKnee": 0.9852885749763183,
                 "leftAnkle": 0.9328933755570656,
-                "rightAnkle": 0.9689560431460714,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9689560431460714
             },
             {
                 "nose": 1.0351236528887084,
@@ -1347,9 +1221,7 @@
                 "leftKnee": 1.1203420941012483,
                 "rightKnee": 1.1117096498875714,
                 "leftAnkle": 1.0476780687560108,
-                "rightAnkle": 0.9542030980694709,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9542030980694709
             },
             {
                 "nose": 1.0087406937923642,
@@ -1368,9 +1240,7 @@
                 "leftKnee": 0.896422898662141,
                 "rightKnee": 0.7510349240466426,
                 "leftAnkle": 0.9385309004320876,
-                "rightAnkle": 0.9730413884442295,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9730413884442295
             },
             {
                 "nose": 0.9904669180454923,
@@ -1389,9 +1259,7 @@
                 "leftKnee": 1.124481436449147,
                 "rightKnee": 1.4216208667928245,
                 "leftAnkle": 0.9514097852944603,
-                "rightAnkle": 1.058572105067392,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.058572105067392
             },
             {
                 "nose": 0.9811129482438238,
@@ -1410,9 +1278,7 @@
                 "leftKnee": 0.91892085136599,
                 "rightKnee": 0.8825951682738172,
                 "leftAnkle": 1.075737305227363,
-                "rightAnkle": 1.0210003729596753,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0210003729596753
             },
             {
                 "nose": 0.9857382069426397,
@@ -1431,9 +1297,7 @@
                 "leftKnee": 1.3428868781706873,
                 "rightKnee": 0.29919292515237494,
                 "leftAnkle": 0.9450649889341002,
-                "rightAnkle": 0.9729575345613267,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9729575345613267
             },
             {
                 "nose": 1.0079958788078989,
@@ -1452,9 +1316,7 @@
                 "leftKnee": 0.8782345829368801,
                 "rightKnee": 1.0776985513546011,
                 "leftAnkle": 1.0296189842293801,
-                "rightAnkle": 0.9509441782699712,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9509441782699712
             },
             {
                 "nose": 1.010065461966435,
@@ -1473,9 +1335,7 @@
                 "leftKnee": 0.7691105242709412,
                 "rightKnee": 2.4795829325804406,
                 "leftAnkle": 0.9720638015424883,
-                "rightAnkle": 1.0252834350078075,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0252834350078075
             },
             {
                 "nose": 1.003043611050219,
@@ -1494,9 +1354,7 @@
                 "leftKnee": 0.9156960674050233,
                 "rightKnee": 0.8398465329538869,
                 "leftAnkle": 1.077519977926814,
-                "rightAnkle": 1.0375834672698565,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0375834672698565
             },
             {
                 "nose": 0.9955443264714312,
@@ -1515,9 +1373,7 @@
                 "leftKnee": 0.7676282080041861,
                 "rightKnee": 1.1391629365661071,
                 "leftAnkle": 1.1332542807466406,
-                "rightAnkle": 1.0159167824524409,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0159167824524409
             },
             {
                 "nose": 0.99025381530858,
@@ -1536,9 +1392,7 @@
                 "leftKnee": 0.7936879471754346,
                 "rightKnee": 1.2617276361790388,
                 "leftAnkle": 0.9493995574388785,
-                "rightAnkle": 1.0303383614252517,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0303383614252517
             },
             {
                 "nose": 0.9958515231629609,
@@ -1557,9 +1411,7 @@
                 "leftKnee": 1.1353108346460805,
                 "rightKnee": 0.6509596964421989,
                 "leftAnkle": 1.01977561359178,
-                "rightAnkle": 0.9760114183147238,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9760114183147238
             },
             {
                 "nose": 1.003671064379114,
@@ -1578,9 +1430,7 @@
                 "leftKnee": 1.3451604885356445,
                 "rightKnee": 0.6807212608330324,
                 "leftAnkle": 0.9463530095553649,
-                "rightAnkle": 1.053304579011551,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.053304579011551
             },
             {
                 "nose": 1.0014153600508662,
@@ -1599,9 +1449,7 @@
                 "leftKnee": 0.9479269936373621,
                 "rightKnee": 2.778186980435304,
                 "leftAnkle": 0.8582299840777099,
-                "rightAnkle": 0.997048962413276,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.997048962413276
             },
             {
                 "nose": 0.9949146855120853,
@@ -1620,9 +1468,7 @@
                 "leftKnee": 1.2327422586772994,
                 "rightKnee": 0.36188357161012574,
                 "leftAnkle": 1.0571790235772303,
-                "rightAnkle": 0.9247638881976641,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9247638881976641
             },
             {
                 "nose": 0.9947520405597229,
@@ -1641,9 +1487,7 @@
                 "leftKnee": 0.9770026115314713,
                 "rightKnee": 1.904952404219494,
                 "leftAnkle": 0.9326510868678992,
-                "rightAnkle": 1.003650771966211,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.003650771966211
             },
             {
                 "nose": 1,
@@ -1662,9 +1506,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 1.012570081538818,
@@ -1683,9 +1525,7 @@
                 "leftKnee": 1.120481133886026,
                 "rightKnee": 0.7954687546518162,
                 "leftAnkle": 0.9824129354538037,
-                "rightAnkle": 1.0133258710174267,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0133258710174267
             },
             {
                 "nose": 0.986963434183019,
@@ -1704,9 +1544,7 @@
                 "leftKnee": 1.1207282383547013,
                 "rightKnee": 1.2204999611339737,
                 "leftAnkle": 1.0321359554116587,
-                "rightAnkle": 0.9919247557689134,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9919247557689134
             },
             {
                 "nose": 0.9993596587284446,
@@ -1725,9 +1563,7 @@
                 "leftKnee": 1.0311675808726566,
                 "rightKnee": 1.5492168254559826,
                 "leftAnkle": 0.9507304471842087,
-                "rightAnkle": 1.0286716973634573,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0286716973634573
             },
             {
                 "nose": 0.9981169132797888,
@@ -1746,9 +1582,7 @@
                 "leftKnee": 1.1284835937779258,
                 "rightKnee": 1.0791880063604162,
                 "leftAnkle": 0.9558443265856356,
-                "rightAnkle": 0.973030021831544,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.973030021831544
             },
             {
                 "nose": 1.002533208811005,
@@ -1767,9 +1601,7 @@
                 "leftKnee": 0.9772356888903682,
                 "rightKnee": 0.9141292815434624,
                 "leftAnkle": 1.0005312524892789,
-                "rightAnkle": 1.0072699098929196,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0072699098929196
             },
             {
                 "nose": 1.002941878466833,
@@ -1788,9 +1620,7 @@
                 "leftKnee": 1.013089457402712,
                 "rightKnee": 1.0872644882613212,
                 "leftAnkle": 0.9478140770331133,
-                "rightAnkle": 0.9896486998220885,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9896486998220885
             },
             {
                 "nose": 1.0036895133256696,
@@ -1809,9 +1639,7 @@
                 "leftKnee": 0.8816803538472124,
                 "rightKnee": 1.2239768218093838,
                 "leftAnkle": 0.9961059540490843,
-                "rightAnkle": 0.984992576187739,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.984992576187739
             },
             {
                 "nose": 1.0078381530960232,
@@ -1830,9 +1658,7 @@
                 "leftKnee": 1.1701394058100836,
                 "rightKnee": 0.7732429328208672,
                 "leftAnkle": 0.985265768737319,
-                "rightAnkle": 0.9671848020577707,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9671848020577707
             },
             {
                 "nose": 0.9909773697040792,
@@ -1851,9 +1677,7 @@
                 "leftKnee": 1.051464672327136,
                 "rightKnee": 0.6777301370493118,
                 "leftAnkle": 0.9931709321594545,
-                "rightAnkle": 0.8867664813405004,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.8867664813405004
             },
             {
                 "nose": 1.0012565794863806,
@@ -1872,9 +1696,7 @@
                 "leftKnee": 0.8703806131674018,
                 "rightKnee": 1.7032597453757234,
                 "leftAnkle": 1.0951751007752097,
-                "rightAnkle": 1.100843925636121,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.100843925636121
             },
             {
                 "nose": 0.9970518924473055,
@@ -1893,9 +1715,7 @@
                 "leftKnee": 0.9675938912611226,
                 "rightKnee": 1.149115523926966,
                 "leftAnkle": 0.9776334448392657,
-                "rightAnkle": 1.0181478074410966,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0181478074410966
             },
             {
                 "nose": 1.0035575205803158,
@@ -1914,9 +1734,7 @@
                 "leftKnee": 1.1795877745074461,
                 "rightKnee": 1.1300198894078064,
                 "leftAnkle": 0.9009750085705224,
-                "rightAnkle": 0.8910572962247035,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.8910572962247035
             },
             {
                 "nose": 1.0115491399882783,
@@ -1935,9 +1753,7 @@
                 "leftKnee": 1.0029724286920518,
                 "rightKnee": 0.8488627600615829,
                 "leftAnkle": 0.9681811662133859,
-                "rightAnkle": 1.113869005794028,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.113869005794028
             },
             {
                 "nose": 1.0015680913249374,
@@ -1956,9 +1772,7 @@
                 "leftKnee": 0.7947723177406422,
                 "rightKnee": 1.5185311940325488,
                 "leftAnkle": 1.1417396345155375,
-                "rightAnkle": 1.0542301455523517,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0542301455523517
             },
             {
                 "nose": 1.0020735493402093,
@@ -1977,9 +1791,7 @@
                 "leftKnee": 0.8448941650124769,
                 "rightKnee": 1.1198756634135232,
                 "leftAnkle": 1.0140164726651495,
-                "rightAnkle": 0.9775882696737968,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9775882696737968
             },
             {
                 "nose": 0.9936790600223602,
@@ -1998,9 +1810,7 @@
                 "leftKnee": 1.0772762611856534,
                 "rightKnee": 0.9381231441853194,
                 "leftAnkle": 1.140726484255432,
-                "rightAnkle": 1.1227921862903647,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.1227921862903647
             },
             {
                 "nose": 0.9994529434338467,
@@ -2019,9 +1829,7 @@
                 "leftKnee": 0.9397465477708193,
                 "rightKnee": 0.15017323247337455,
                 "leftAnkle": 0.898812369015277,
-                "rightAnkle": 1.1063244595639323,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.1063244595639323
             },
             {
                 "nose": 0.9918962340290425,
@@ -2040,9 +1848,7 @@
                 "leftKnee": 0.9815971610772095,
                 "rightKnee": 0.7533810268874634,
                 "leftAnkle": 1.0295577662809103,
-                "rightAnkle": 1.1232227748049668,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.1232227748049668
             },
             {
                 "nose": 1.0018175635367157,
@@ -2061,9 +1867,7 @@
                 "leftKnee": 1.0838593601799447,
                 "rightKnee": -0.4905759367462381,
                 "leftAnkle": 0.9029173790670133,
-                "rightAnkle": 0.9418817963653339,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9418817963653339
             },
             {
                 "nose": 0.9924443546241701,
@@ -2082,9 +1886,7 @@
                 "leftKnee": 2.0729053507385014,
                 "rightKnee": 13.495218527705928,
                 "leftAnkle": 0.058381941346302,
-                "rightAnkle": 0.6565867339561257,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.6565867339561257
             },
             {
                 "nose": 0.9928352287935278,
@@ -2103,9 +1905,7 @@
                 "leftKnee": 0.5001277002624053,
                 "rightKnee": 0.04069172880905859,
                 "leftAnkle": 18.12140520368387,
-                "rightAnkle": 1.5463261175520573,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.5463261175520573
             },
             {
                 "nose": 0.9811235750413004,
@@ -2124,9 +1924,7 @@
                 "leftKnee": 1.3614262696231392,
                 "rightKnee": 13.414039709410934,
                 "leftAnkle": 1.0385068389034444,
-                "rightAnkle": 0.7406340000313617,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.7406340000313617
             },
             {
                 "nose": 0.9958184646573018,
@@ -2145,9 +1943,7 @@
                 "leftKnee": 0.9119309443940046,
                 "rightKnee": 0.765231262658341,
                 "leftAnkle": 0.6644161143985823,
-                "rightAnkle": 1.1086366106593202,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.1086366106593202
             },
             {
                 "nose": 0.9921702674886965,
@@ -2166,9 +1962,7 @@
                 "leftKnee": 0.7982930488910023,
                 "rightKnee": -0.4577127274330291,
                 "leftAnkle": 1.5303982150880118,
-                "rightAnkle": 1.2102292084501083,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.2102292084501083
             },
             {
                 "nose": 0.9908419983037554,
@@ -2187,9 +1981,7 @@
                 "leftKnee": 0.19630644545970655,
                 "rightKnee": 7.500560700084,
                 "leftAnkle": 1.1477755851953857,
-                "rightAnkle": 1.0058688304468317,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0058688304468317
             },
             {
                 "nose": 0.9995980053141965,
@@ -2208,9 +2000,7 @@
                 "leftKnee": 1.9458652786500619,
                 "rightKnee": 0.8665862865534191,
                 "leftAnkle": 1.028879793895419,
-                "rightAnkle": 1.005358308857957,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.005358308857957
             },
             {
                 "nose": 0.988603758553527,
@@ -2229,9 +2019,7 @@
                 "leftKnee": 1.4558426462516978,
                 "rightKnee": 0.939891022709956,
                 "leftAnkle": 0.8097731388519589,
-                "rightAnkle": 1.0505621120874997,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0505621120874997
             },
             {
                 "nose": 0.993077642807705,
@@ -2250,9 +2038,7 @@
                 "leftKnee": 0.7213604969811886,
                 "rightKnee": 0.7037367369599331,
                 "leftAnkle": 1.0151797204768105,
-                "rightAnkle": 0.9655284932331148,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9655284932331148
             },
             {
                 "nose": 0.9933865353435954,
@@ -2271,9 +2057,7 @@
                 "leftKnee": 1.2015320304985377,
                 "rightKnee": 0.9034927205983575,
                 "leftAnkle": 1.102013855409499,
-                "rightAnkle": 1.0132974679569413,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0132974679569413
             },
             {
                 "nose": 0.9917034553199529,
@@ -2292,9 +2076,7 @@
                 "leftKnee": 3.5052001578145306,
                 "rightKnee": 0.15271997559356576,
                 "leftAnkle": 0.9136424654889788,
-                "rightAnkle": 0.9353257700697075,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9353257700697075
             },
             {
                 "nose": 1.0092443636878954,
@@ -2313,9 +2095,7 @@
                 "leftKnee": 0.7763454528775897,
                 "rightKnee": 3.623453926577125,
                 "leftAnkle": 0.9376522932405791,
-                "rightAnkle": 0.9793778231118275,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9793778231118275
             },
             {
                 "nose": 1.005245690589086,
@@ -2334,9 +2114,7 @@
                 "leftKnee": 1.2817316994660866,
                 "rightKnee": -0.9593943113468231,
                 "leftAnkle": 0.8397433214918231,
-                "rightAnkle": 0.8105354454315703,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.8105354454315703
             }
         ]
     },
@@ -2360,9 +2138,7 @@
                 "leftKnee": 1.0923472614355942,
                 "rightKnee": 1.4776314515348188,
                 "leftAnkle": 0.8211121689702207,
-                "rightAnkle": 0.9561342332206795,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9561342332206795
             },
             {
                 "nose": 0.9738855397009383,
@@ -2381,9 +2157,7 @@
                 "leftKnee": 0.9557356370634751,
                 "rightKnee": 0.7683906796263046,
                 "leftAnkle": 1.0421933684438502,
-                "rightAnkle": 0.9768219946056071,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9768219946056071
             },
             {
                 "nose": 1.007228803884426,
@@ -2402,9 +2176,7 @@
                 "leftKnee": 1.033820180297857,
                 "rightKnee": 1.1694864879882374,
                 "leftAnkle": 1.0373076200061038,
-                "rightAnkle": 1.0300300854955402,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0300300854955402
             },
             {
                 "nose": 1.0001426210658964,
@@ -2423,9 +2195,7 @@
                 "leftKnee": 0.9850935922368382,
                 "rightKnee": 1.0908508806919637,
                 "leftAnkle": 0.943816518840235,
-                "rightAnkle": 0.9639858036313073,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9639858036313073
             },
             {
                 "nose": 1.001366269137461,
@@ -2444,9 +2214,7 @@
                 "leftKnee": 0.9281835984694574,
                 "rightKnee": 0.658999574069173,
                 "leftAnkle": 1.0738671238385507,
-                "rightAnkle": 1.0289105118750665,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0289105118750665
             },
             {
                 "nose": 1.0287559610065138,
@@ -2465,9 +2233,7 @@
                 "leftKnee": 0.9808569268387557,
                 "rightKnee": 0.9233972797292281,
                 "leftAnkle": 1.0138802965156901,
-                "rightAnkle": 0.9773543336429736,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9773543336429736
             },
             {
                 "nose": 0.9975696953824167,
@@ -2486,9 +2252,7 @@
                 "leftKnee": 1.0548161722020628,
                 "rightKnee": 1.2113990706763687,
                 "leftAnkle": 0.9452752759906428,
-                "rightAnkle": 0.9807672267008736,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9807672267008736
             },
             {
                 "nose": 1.0024627778438921,
@@ -2507,9 +2271,7 @@
                 "leftKnee": 1.0828327884455267,
                 "rightKnee": 1.3688306370442471,
                 "leftAnkle": 0.997225564662874,
-                "rightAnkle": 0.9912524443212555,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9912524443212555
             },
             {
                 "nose": 0.9695354271040235,
@@ -2528,9 +2290,7 @@
                 "leftKnee": 0.9506675138195322,
                 "rightKnee": 0.872881845089163,
                 "leftAnkle": 1.0047846673443341,
-                "rightAnkle": 1.008410113663916,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.008410113663916
             },
             {
                 "nose": 0.999416643756358,
@@ -2549,9 +2309,7 @@
                 "leftKnee": 1.0025455370640308,
                 "rightKnee": 0.9759472460948044,
                 "leftAnkle": 1.0143908543490494,
-                "rightAnkle": 1.0119256598258215,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0119256598258215
             },
             {
                 "nose": 0.9955146700312638,
@@ -2570,9 +2328,7 @@
                 "leftKnee": 1.0382564998815658,
                 "rightKnee": 1.2159004138425107,
                 "leftAnkle": 0.9675308985030997,
-                "rightAnkle": 0.9862069506604517,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9862069506604517
             },
             {
                 "nose": 1.0009379364241375,
@@ -2591,9 +2347,7 @@
                 "leftKnee": 0.9876782015908223,
                 "rightKnee": 1.0385811143458592,
                 "leftAnkle": 1.0313155824331233,
-                "rightAnkle": 1.0072802609756257,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0072802609756257
             },
             {
                 "nose": 0.9990317123917208,
@@ -2612,9 +2366,7 @@
                 "leftKnee": 0.9963946846882509,
                 "rightKnee": 1.0561044433785987,
                 "leftAnkle": 0.9861836100306884,
-                "rightAnkle": 0.979724819176101,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.979724819176101
             },
             {
                 "nose": 1.0344642682833973,
@@ -2633,9 +2385,7 @@
                 "leftKnee": 0.9569656993822744,
                 "rightKnee": 0.946058754871722,
                 "leftAnkle": 0.9897997454429459,
-                "rightAnkle": 1.0124760794074101,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0124760794074101
             },
             {
                 "nose": 0.969863151506346,
@@ -2654,9 +2404,7 @@
                 "leftKnee": 0.9844862909886459,
                 "rightKnee": 1.1662499754841755,
                 "leftAnkle": 0.9677414919688863,
-                "rightAnkle": 0.9576219267799657,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9576219267799657
             },
             {
                 "nose": 1.0049834056057034,
@@ -2675,9 +2423,7 @@
                 "leftKnee": 0.9654449909386653,
                 "rightKnee": 0.9331389785120592,
                 "leftAnkle": 0.957931038529807,
-                "rightAnkle": 0.9902582260404627,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9902582260404627
             },
             {
                 "nose": 1.043308875179839,
@@ -2696,9 +2442,7 @@
                 "leftKnee": 0.9370952839259825,
                 "rightKnee": 0.7053476300670839,
                 "leftAnkle": 1.0105055699228367,
-                "rightAnkle": 0.9895049429311353,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9895049429311353
             },
             {
                 "nose": 0.9936401013194905,
@@ -2717,9 +2461,7 @@
                 "leftKnee": 1.0352765317042532,
                 "rightKnee": 0.9067172237332649,
                 "leftAnkle": 1.0147815067405377,
-                "rightAnkle": 1.0259024464186919,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0259024464186919
             },
             {
                 "nose": 0.9645048000017336,
@@ -2738,9 +2480,7 @@
                 "leftKnee": 0.9922451898887307,
                 "rightKnee": 1.2167222751880469,
                 "leftAnkle": 1.0053584674830152,
-                "rightAnkle": 1.014031965423269,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.014031965423269
             },
             {
                 "nose": 1.021381199760055,
@@ -2759,9 +2499,7 @@
                 "leftKnee": 1.0191502704563464,
                 "rightKnee": 1.1170995958641257,
                 "leftAnkle": 1.0134936491069533,
-                "rightAnkle": 0.9894978577815042,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9894978577815042
             },
             {
                 "nose": 0.9871317005308782,
@@ -2780,9 +2518,7 @@
                 "leftKnee": 1.130982733016717,
                 "rightKnee": 1.0227853962195763,
                 "leftAnkle": 0.9958179931366022,
-                "rightAnkle": 1.0137238831643707,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0137238831643707
             },
             {
                 "nose": 1.0061605405988845,
@@ -2801,9 +2537,7 @@
                 "leftKnee": 1.0913510841668261,
                 "rightKnee": 1.1237367997108194,
                 "leftAnkle": 0.9754262047868428,
-                "rightAnkle": 0.9922672123731026,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9922672123731026
             },
             {
                 "nose": 1.0013128022956905,
@@ -2822,9 +2556,7 @@
                 "leftKnee": 0.9767690817188859,
                 "rightKnee": 0.865482966014491,
                 "leftAnkle": 0.9616948460105972,
-                "rightAnkle": 0.998448016860972,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.998448016860972
             },
             {
                 "nose": 0.994675536702098,
@@ -2843,9 +2575,7 @@
                 "leftKnee": 1.005082779844252,
                 "rightKnee": 1.065579294102696,
                 "leftAnkle": 0.9984837656390577,
-                "rightAnkle": 0.9988818282447648,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9988818282447648
             },
             {
                 "nose": 0.9974627978682384,
@@ -2864,9 +2594,7 @@
                 "leftKnee": 0.9959253982304422,
                 "rightKnee": 1.106740916357799,
                 "leftAnkle": 0.964554240795276,
-                "rightAnkle": 0.9607557624947598,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9607557624947598
             },
             {
                 "nose": 1.001231136174395,
@@ -2885,9 +2613,7 @@
                 "leftKnee": 0.9631068584823249,
                 "rightKnee": 0.9466855230608627,
                 "leftAnkle": 1.0203403765349175,
-                "rightAnkle": 1.0038409788812943,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0038409788812943
             },
             {
                 "nose": 0.9998357555175281,
@@ -2906,9 +2632,7 @@
                 "leftKnee": 1.0389703815571958,
                 "rightKnee": 1.0323332091771296,
                 "leftAnkle": 0.9987276494053897,
-                "rightAnkle": 1.0007470598422543,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0007470598422543
             },
             {
                 "nose": 1.0086517829196389,
@@ -2927,9 +2651,7 @@
                 "leftKnee": 1.0118504193357571,
                 "rightKnee": 0.9781042702593046,
                 "leftAnkle": 1.0094193113216199,
-                "rightAnkle": 1.0271439326585154,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0271439326585154
             },
             {
                 "nose": 0.994767610231806,
@@ -2948,9 +2670,7 @@
                 "leftKnee": 0.9765436931188104,
                 "rightKnee": 1.1006935640635631,
                 "leftAnkle": 1.0126933597064884,
-                "rightAnkle": 0.9921651084628649,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9921651084628649
             },
             {
                 "nose": 0.9947652466372076,
@@ -2969,9 +2689,7 @@
                 "leftKnee": 0.9813256217574097,
                 "rightKnee": 0.8578200947492738,
                 "leftAnkle": 1.0218227957050154,
-                "rightAnkle": 1.0221076843250707,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0221076843250707
             },
             {
                 "nose": 0.9996777918461672,
@@ -2990,9 +2708,7 @@
                 "leftKnee": 1.0236325103266626,
                 "rightKnee": 1.0380773846209814,
                 "leftAnkle": 0.9836990881478551,
-                "rightAnkle": 1.0016785362437448,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0016785362437448
             },
             {
                 "nose": 0.9941636839621719,
@@ -3011,9 +2727,7 @@
                 "leftKnee": 1.0147502902706205,
                 "rightKnee": 1.2720253618778712,
                 "leftAnkle": 1.0071345122530664,
-                "rightAnkle": 1.0281621775963679,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0281621775963679
             },
             {
                 "nose": 1.0070795979573153,
@@ -3032,9 +2746,7 @@
                 "leftKnee": 0.9720824950652358,
                 "rightKnee": 1.0061997899980015,
                 "leftAnkle": 1.0095298607453156,
-                "rightAnkle": 0.9979780285800696,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9979780285800696
             },
             {
                 "nose": 0.9984381634169793,
@@ -3053,9 +2765,7 @@
                 "leftKnee": 0.953216900339871,
                 "rightKnee": 0.945147467607796,
                 "leftAnkle": 1.0344789924372872,
-                "rightAnkle": 1.0069269193442303,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0069269193442303
             },
             {
                 "nose": 0.9981079394762059,
@@ -3074,9 +2784,7 @@
                 "leftKnee": 0.974624666981379,
                 "rightKnee": 0.9443363482699054,
                 "leftAnkle": 0.9713060098465714,
-                "rightAnkle": 0.9844026393688401,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9844026393688401
             },
             {
                 "nose": 0.9852119447866439,
@@ -3095,9 +2803,7 @@
                 "leftKnee": 0.9997080388253757,
                 "rightKnee": 0.8741220307478931,
                 "leftAnkle": 1.0095655878038872,
-                "rightAnkle": 1.0138663454750168,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0138663454750168
             },
             {
                 "nose": 1.0134423477831762,
@@ -3116,9 +2822,7 @@
                 "leftKnee": 0.9652596051237976,
                 "rightKnee": 1.1308701197770679,
                 "leftAnkle": 1.0081223535554629,
-                "rightAnkle": 1.0013437117440849,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0013437117440849
             },
             {
                 "nose": 1.0106978274928498,
@@ -3137,9 +2841,7 @@
                 "leftKnee": 1.0505080406806924,
                 "rightKnee": 0.9498916064712437,
                 "leftAnkle": 0.9616742373578459,
-                "rightAnkle": 0.9880262338986211,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9880262338986211
             },
             {
                 "nose": 1,
@@ -3158,9 +2860,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 0.982488106440151,
@@ -3179,9 +2879,7 @@
                 "leftKnee": 1.030312592981826,
                 "rightKnee": 0.9867550306600025,
                 "leftAnkle": 1.0402958375082079,
-                "rightAnkle": 1.0173288997022536,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0173288997022536
             },
             {
                 "nose": 1.0000933344751868,
@@ -3200,9 +2898,7 @@
                 "leftKnee": 0.9517084641610354,
                 "rightKnee": 0.5984524055517149,
                 "leftAnkle": 1.128841180051325,
-                "rightAnkle": 1.051572389857199,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.051572389857199
             },
             {
                 "nose": 1.0103882082958138,
@@ -3221,9 +2917,7 @@
                 "leftKnee": 0.8975472579635988,
                 "rightKnee": 0.6460795324025641,
                 "leftAnkle": 1.005377134874234,
-                "rightAnkle": 1.0092854313587165,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0092854313587165
             },
             {
                 "nose": 0.9812410120685674,
@@ -3242,9 +2936,7 @@
                 "leftKnee": 1.00280515838374,
                 "rightKnee": 1.548620095933208,
                 "leftAnkle": 0.9575379878632796,
-                "rightAnkle": 1.0104279377648822,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0104279377648822
             },
             {
                 "nose": 0.9942672168447027,
@@ -3263,9 +2955,7 @@
                 "leftKnee": 1.045115011408758,
                 "rightKnee": 0.9959679533784858,
                 "leftAnkle": 0.9870532610771378,
-                "rightAnkle": 1.057161556828542,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.057161556828542
             },
             {
                 "nose": 1.0086185433106882,
@@ -3284,9 +2974,7 @@
                 "leftKnee": 0.9347427403825833,
                 "rightKnee": 0.7819536621738575,
                 "leftAnkle": 1.10614751108386,
-                "rightAnkle": 1.0071081168740426,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0071081168740426
             },
             {
                 "nose": 0.996011712342132,
@@ -3305,9 +2993,7 @@
                 "leftKnee": 0.9310292537187167,
                 "rightKnee": 0.36903512978155956,
                 "leftAnkle": 1.0648098955072725,
-                "rightAnkle": 1.0128562998270605,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0128562998270605
             },
             {
                 "nose": 0.9974930773312857,
@@ -3326,9 +3012,7 @@
                 "leftKnee": 0.9241995014605908,
                 "rightKnee": 0.17097321393348122,
                 "leftAnkle": 0.9448648598797424,
-                "rightAnkle": 0.9858007924598435,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9858007924598435
             },
             {
                 "nose": 0.9935126557998508,
@@ -3347,9 +3031,7 @@
                 "leftKnee": 1.1442273989046656,
                 "rightKnee": 9.838399861560307,
                 "leftAnkle": 1.0044315237741253,
-                "rightAnkle": 0.9668507560568967,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9668507560568967
             },
             {
                 "nose": 1.007455783287143,
@@ -3368,9 +3050,7 @@
                 "leftKnee": 0.9468299723422136,
                 "rightKnee": 1.2771409809537289,
                 "leftAnkle": 1.010374486766414,
-                "rightAnkle": 0.9873837443188875,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9873837443188875
             },
             {
                 "nose": 1.0141938388820309,
@@ -3389,9 +3069,7 @@
                 "leftKnee": 1.1007005107208598,
                 "rightKnee": 1.7460326933384263,
                 "leftAnkle": 0.9293180417458731,
-                "rightAnkle": 0.9581906635944877,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9581906635944877
             },
             {
                 "nose": 0.9738261862765639,
@@ -3410,9 +3088,7 @@
                 "leftKnee": 0.9852716161312635,
                 "rightKnee": 0.9744007561784581,
                 "leftAnkle": 0.9803597652695982,
-                "rightAnkle": 0.9880671534180987,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9880671534180987
             },
             {
                 "nose": 0.9917442430910033,
@@ -3431,9 +3107,7 @@
                 "leftKnee": 0.9302539577946176,
                 "rightKnee": 0.9056253115747694,
                 "leftAnkle": 0.9859646755198747,
-                "rightAnkle": 0.9899979587574806,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9899979587574806
             },
             {
                 "nose": 1.0162048582936267,
@@ -3452,9 +3126,7 @@
                 "leftKnee": 1.0307881442965712,
                 "rightKnee": 1.0881012805319032,
                 "leftAnkle": 0.9693308676586077,
-                "rightAnkle": 0.9493950965568133,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9493950965568133
             },
             {
                 "nose": 0.9924446053780587,
@@ -3473,9 +3145,7 @@
                 "leftKnee": 0.9415730710325279,
                 "rightKnee": 0.817085442959986,
                 "leftAnkle": 1.0534263169399998,
-                "rightAnkle": 0.9983461194013095,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9983461194013095
             },
             {
                 "nose": 1.0224941002770418,
@@ -3494,9 +3164,7 @@
                 "leftKnee": 1.0216124557252375,
                 "rightKnee": 1.4449847474255844,
                 "leftAnkle": 0.958601539266368,
-                "rightAnkle": 0.98445196079263,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.98445196079263
             },
             {
                 "nose": 1.0038899697110888,
@@ -3515,9 +3183,7 @@
                 "leftKnee": 0.9305539895746268,
                 "rightKnee": 0.9318891695836138,
                 "leftAnkle": 0.9959066389977098,
-                "rightAnkle": 1.0276064855088842,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0276064855088842
             },
             {
                 "nose": 1.0078149859147776,
@@ -3536,9 +3202,7 @@
                 "leftKnee": 1.1299747948987164,
                 "rightKnee": 1.2724644245743797,
                 "leftAnkle": 0.9728487314454453,
-                "rightAnkle": 0.9996459897033855,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9996459897033855
             },
             {
                 "nose": 0.9949837428123557,
@@ -3557,9 +3221,7 @@
                 "leftKnee": 0.9104743354737277,
                 "rightKnee": 0.6679255929577029,
                 "leftAnkle": 1.021870906499529,
-                "rightAnkle": 1.0010063210362148,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0010063210362148
             },
             {
                 "nose": 1.0060569416607479,
@@ -3578,9 +3240,7 @@
                 "leftKnee": 0.9515991982910589,
                 "rightKnee": 0.988707856696302,
                 "leftAnkle": 1.0351357347535883,
-                "rightAnkle": 0.9933976833804533,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9933976833804533
             },
             {
                 "nose": 0.9912330833424321,
@@ -3599,9 +3259,7 @@
                 "leftKnee": 0.9563332767093327,
                 "rightKnee": 0.9316325193307328,
                 "leftAnkle": 1.014539993672557,
-                "rightAnkle": 1.011439364951904,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.011439364951904
             },
             {
                 "nose": 0.9973151916735061,
@@ -3620,9 +3278,7 @@
                 "leftKnee": 1.051127711459209,
                 "rightKnee": 1.1492250249158813,
                 "leftAnkle": 1.0082519435143131,
-                "rightAnkle": 0.975200788829385,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.975200788829385
             },
             {
                 "nose": 0.9963656742300565,
@@ -3641,9 +3297,7 @@
                 "leftKnee": 1.0922232381228985,
                 "rightKnee": 1.3960804816617505,
                 "leftAnkle": 0.9772367896287514,
-                "rightAnkle": 0.9658969362577722,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9658969362577722
             },
             {
                 "nose": 0.9972480471029861,
@@ -3662,9 +3316,7 @@
                 "leftKnee": 0.9982022368270513,
                 "rightKnee": 0.9687550155444735,
                 "leftAnkle": 0.999258012045094,
-                "rightAnkle": 1.0168141489066973,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0168141489066973
             },
             {
                 "nose": 1.012957724293022,
@@ -3683,9 +3335,7 @@
                 "leftKnee": 1.0516385882165888,
                 "rightKnee": 0.9419578871259617,
                 "leftAnkle": 0.9735411402654205,
-                "rightAnkle": 1.0069668158732632,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0069668158732632
             },
             {
                 "nose": 0.9951807098684777,
@@ -3704,9 +3354,7 @@
                 "leftKnee": 0.9997956701460821,
                 "rightKnee": 1.2051636711453304,
                 "leftAnkle": 0.9725265210990779,
-                "rightAnkle": 0.9762229687789653,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9762229687789653
             },
             {
                 "nose": 0.9771092941124268,
@@ -3725,9 +3373,7 @@
                 "leftKnee": 0.9421333745104288,
                 "rightKnee": 0.7614544347295815,
                 "leftAnkle": 1.0100257957594114,
-                "rightAnkle": 1.0211138331903924,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0211138331903924
             },
             {
                 "nose": 0.9991985139855598,
@@ -3746,9 +3392,7 @@
                 "leftKnee": 1.1008704461696186,
                 "rightKnee": 1.1234494871010594,
                 "leftAnkle": 0.9428703051288317,
-                "rightAnkle": 1.008111933856595,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.008111933856595
             },
             {
                 "nose": 0.9954745928591344,
@@ -3767,9 +3411,7 @@
                 "leftKnee": 1.002727901365714,
                 "rightKnee": 0.8713812652730513,
                 "leftAnkle": 0.9792804524262315,
-                "rightAnkle": 0.9834367168018694,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9834367168018694
             },
             {
                 "nose": 1.0033380308323054,
@@ -3788,9 +3430,7 @@
                 "leftKnee": 0.9356090081058498,
                 "rightKnee": 0.9832498342809132,
                 "leftAnkle": 0.9669227711218311,
-                "rightAnkle": 1.005201266652881,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.005201266652881
             },
             {
                 "nose": 0.9799075251421142,
@@ -3809,9 +3449,7 @@
                 "leftKnee": 1.0463227932085497,
                 "rightKnee": 0.6289675016239734,
                 "leftAnkle": 1.0513972790954154,
-                "rightAnkle": 1.005158643946486,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.005158643946486
             },
             {
                 "nose": 0.9865300297895158,
@@ -3830,9 +3468,7 @@
                 "leftKnee": 1.0032775089822543,
                 "rightKnee": 0.601841420529997,
                 "leftAnkle": 1.0308543152730738,
-                "rightAnkle": 1.0433768323785102,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0433768323785102
             },
             {
                 "nose": 1.0166419593278888,
@@ -3851,9 +3487,7 @@
                 "leftKnee": 0.9810997748748616,
                 "rightKnee": 1.3408209054572076,
                 "leftAnkle": 1.016059850249542,
-                "rightAnkle": 1.0234639675004666,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0234639675004666
             },
             {
                 "nose": 1.0162572520702655,
@@ -3872,9 +3506,7 @@
                 "leftKnee": 0.9642639908264189,
                 "rightKnee": 1.4181398356185662,
                 "leftAnkle": 1.0520022581766757,
-                "rightAnkle": 1.0612049448038625,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0612049448038625
             },
             {
                 "nose": 0.9839300295206593,
@@ -3893,9 +3525,7 @@
                 "leftKnee": 1.0983556289356669,
                 "rightKnee": 0.7503242348356749,
                 "leftAnkle": 0.9746961996526163,
-                "rightAnkle": 1.000982143882632,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.000982143882632
             },
             {
                 "nose": 1.017007566902212,
@@ -3914,9 +3544,7 @@
                 "leftKnee": 0.9242089386394893,
                 "rightKnee": 0.36479994173832936,
                 "leftAnkle": 1.0478655292927646,
-                "rightAnkle": 1.0206894860034095,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0206894860034095
             },
             {
                 "nose": 1.0016910736119398,
@@ -3935,9 +3563,7 @@
                 "leftKnee": 1.0830162363578635,
                 "rightKnee": 2.5721932473236695,
                 "leftAnkle": 0.953535152563627,
-                "rightAnkle": 0.9865202310941448,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9865202310941448
             },
             {
                 "nose": 1.0025815957626396,
@@ -3956,9 +3582,7 @@
                 "leftKnee": 0.9879606245408689,
                 "rightKnee": 2.1555122216239364,
                 "leftAnkle": 0.9899366353540899,
-                "rightAnkle": 0.8983601682743291,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.8983601682743291
             },
             {
                 "nose": 0.9949737633647511,
@@ -3977,9 +3601,7 @@
                 "leftKnee": 0.9591380108421091,
                 "rightKnee": 0.689903029293755,
                 "leftAnkle": 0.9816397951997353,
-                "rightAnkle": 0.9520092311029761,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9520092311029761
             },
             {
                 "nose": 1.0044598297207197,
@@ -3998,9 +3620,7 @@
                 "leftKnee": 1.0412030530642955,
                 "rightKnee": 1.6383127939823743,
                 "leftAnkle": 0.9835477210954056,
-                "rightAnkle": 0.973303938219904,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.973303938219904
             },
             {
                 "nose": 1.0233174413843285,
@@ -4019,9 +3639,7 @@
                 "leftKnee": 0.9211828105827498,
                 "rightKnee": 0.8277131354641373,
                 "leftAnkle": 1.0238967419849783,
-                "rightAnkle": 1.0116796049015646,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0116796049015646
             },
             {
                 "nose": 0.9840617021179529,
@@ -4040,9 +3658,7 @@
                 "leftKnee": 0.9533835463922046,
                 "rightKnee": 0.8103740560798424,
                 "leftAnkle": 0.9785503770896855,
-                "rightAnkle": 0.9836668002750577,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9836668002750577
             },
             {
                 "nose": 0.9941092813858945,
@@ -4061,9 +3677,7 @@
                 "leftKnee": 1.045909611003051,
                 "rightKnee": 1.2073646028285416,
                 "leftAnkle": 0.9969010809705782,
-                "rightAnkle": 1.0186507419218345,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0186507419218345
             },
             {
                 "nose": 0.9962407207934391,
@@ -4082,9 +3696,7 @@
                 "leftKnee": 1.0650716188122136,
                 "rightKnee": 1.1883264115491792,
                 "leftAnkle": 1.0332150704368326,
-                "rightAnkle": 1.0115840445198196,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0115840445198196
             },
             {
                 "nose": 0.9927226320063853,
@@ -4103,9 +3715,7 @@
                 "leftKnee": 1.0740900207547586,
                 "rightKnee": 1.0344109891724165,
                 "leftAnkle": 0.9928893365579289,
-                "rightAnkle": 1.0337650088458756,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0337650088458756
             },
             {
                 "nose": 1.001908488942887,
@@ -4124,9 +3734,7 @@
                 "leftKnee": 0.9258998523825511,
                 "rightKnee": 0.6797428302275479,
                 "leftAnkle": 0.9815170901579381,
-                "rightAnkle": 0.9878125357312795,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9878125357312795
             },
             {
                 "nose": 1.0025697237615725,
@@ -4145,9 +3753,7 @@
                 "leftKnee": 0.9922486955481395,
                 "rightKnee": 0.6809922364748793,
                 "leftAnkle": 1.007843017394906,
-                "rightAnkle": 1.0118218676991493,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0118218676991493
             },
             {
                 "nose": 1.0157313804928694,
@@ -4166,9 +3772,7 @@
                 "leftKnee": 1.007893735461183,
                 "rightKnee": 1.210485609723432,
                 "leftAnkle": 0.98328215874178,
-                "rightAnkle": 0.9953569204622361,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9953569204622361
             },
             {
                 "nose": 0.9856651931675646,
@@ -4187,9 +3791,7 @@
                 "leftKnee": 1.0128373559415556,
                 "rightKnee": 0.9842275375148138,
                 "leftAnkle": 1.0121952025489387,
-                "rightAnkle": 1.0122060992577409,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0122060992577409
             },
             {
                 "nose": 0.9936507789664616,
@@ -4208,9 +3810,7 @@
                 "leftKnee": 0.9929422898066069,
                 "rightKnee": 0.5824149620698675,
                 "leftAnkle": 1.0096518313838985,
-                "rightAnkle": 1.0440189234720603,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0440189234720603
             },
             {
                 "nose": 0.9992012163129659,
@@ -4229,9 +3829,7 @@
                 "leftKnee": 1.0103796882419636,
                 "rightKnee": 0.891955465196296,
                 "leftAnkle": 1.0077973153769242,
-                "rightAnkle": 1.0302778456948412,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0302778456948412
             },
             {
                 "nose": 1.003305464627468,
@@ -4250,9 +3848,7 @@
                 "leftKnee": 1.1048406133442077,
                 "rightKnee": 2.7084170347784955,
                 "leftAnkle": 0.9595824899013524,
-                "rightAnkle": 0.9713638995976795,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9713638995976795
             },
             {
                 "nose": 0.9708445062757052,
@@ -4271,9 +3867,7 @@
                 "leftKnee": 1.0042060976033322,
                 "rightKnee": 0.887249901568389,
                 "leftAnkle": 0.9741746187452457,
-                "rightAnkle": 1.0317917474678224,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0317917474678224
             },
             {
                 "nose": 1.0041815530293028,
@@ -4292,9 +3886,7 @@
                 "leftKnee": 0.9064352076182847,
                 "rightKnee": 0.8335353617519292,
                 "leftAnkle": 1.0031609348979793,
-                "rightAnkle": 0.9321780916294615,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9321780916294615
             },
             {
                 "nose": 1.0048833247106803,
@@ -4313,9 +3905,7 @@
                 "leftKnee": 1.0970597477017774,
                 "rightKnee": 1.67103842658466,
                 "leftAnkle": 1.0585952615138081,
-                "rightAnkle": 0.995280984633885,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.995280984633885
             },
             {
                 "nose": 1.0028379215798005,
@@ -4334,9 +3924,7 @@
                 "leftKnee": 0.9541735189444913,
                 "rightKnee": 0.9839712086615938,
                 "leftAnkle": 0.9620303603210384,
-                "rightAnkle": 0.9817676314038427,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9817676314038427
             },
             {
                 "nose": 0.989900820938581,
@@ -4355,9 +3943,7 @@
                 "leftKnee": 1.0984107611096756,
                 "rightKnee": 1.0621708171286686,
                 "leftAnkle": 1.0494902749649904,
-                "rightAnkle": 1.0356452220682215,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0356452220682215
             },
             {
                 "nose": 0.9936858860384721,
@@ -4376,9 +3962,7 @@
                 "leftKnee": 1.0578929664347796,
                 "rightKnee": 1.1683588782360972,
                 "leftAnkle": 1.0340956571672313,
-                "rightAnkle": 1.0338399991540377,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0338399991540377
             },
             {
                 "nose": 1.0134916734167405,
@@ -4397,9 +3981,7 @@
                 "leftKnee": 0.9730094101070833,
                 "rightKnee": 0.8529122901110844,
                 "leftAnkle": 0.9345906824595204,
-                "rightAnkle": 1.0118678311425742,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0118678311425742
             },
             {
                 "nose": 0.9817474021461647,
@@ -4418,9 +4000,7 @@
                 "leftKnee": 1.0200999394583727,
                 "rightKnee": 1.1099365718774412,
                 "leftAnkle": 1.0618814789788615,
-                "rightAnkle": 1.0013724698586959,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0013724698586959
             },
             {
                 "nose": 0.9945558137949893,
@@ -4439,9 +4019,7 @@
                 "leftKnee": 0.9845989874039085,
                 "rightKnee": 0.9528409121663682,
                 "leftAnkle": 1.014080886727122,
-                "rightAnkle": 0.9782139417976549,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9782139417976549
             },
             {
                 "nose": 0.996603046343075,
@@ -4460,9 +4038,7 @@
                 "leftKnee": 0.9490622282257094,
                 "rightKnee": 0.97528656787921,
                 "leftAnkle": 1.030559235511214,
-                "rightAnkle": 0.9871969135194176,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9871969135194176
             },
             {
                 "nose": 0.9926535850975257,
@@ -4481,9 +4057,7 @@
                 "leftKnee": 0.9819344064086782,
                 "rightKnee": 1.1915655159258234,
                 "leftAnkle": 0.9309614864472081,
-                "rightAnkle": 1.0115822369743204,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0115822369743204
             },
             {
                 "nose": 1.0013929681481957,
@@ -4502,9 +4076,7 @@
                 "leftKnee": 1.019833718256588,
                 "rightKnee": 0.793578000337287,
                 "leftAnkle": 0.9629910826539615,
-                "rightAnkle": 1.0060332422137166,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0060332422137166
             },
             {
                 "nose": 1.0225770945537658,
@@ -4523,9 +4095,7 @@
                 "leftKnee": 1.0244684430889792,
                 "rightKnee": 1.0599137430997996,
                 "leftAnkle": 0.9749359228731285,
-                "rightAnkle": 1.0106137265172592,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0106137265172592
             },
             {
                 "nose": 0.997197780108684,
@@ -4544,9 +4114,7 @@
                 "leftKnee": 1.0439736152203343,
                 "rightKnee": 0.8143476487926078,
                 "leftAnkle": 0.9915400148759141,
-                "rightAnkle": 0.9974643221683196,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9974643221683196
             },
             {
                 "nose": 1.006279460537598,
@@ -4565,9 +4133,7 @@
                 "leftKnee": 1.0098327094319366,
                 "rightKnee": 1.2199809813685223,
                 "leftAnkle": 1.0548936919035683,
-                "rightAnkle": 1.0014404092733264,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0014404092733264
             },
             {
                 "nose": 0.9972808910092552,
@@ -4586,9 +4152,7 @@
                 "leftKnee": 1.0024747806913812,
                 "rightKnee": 1.1387777863897401,
                 "leftAnkle": 0.9906579804074107,
-                "rightAnkle": 1.0137814799933758,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0137814799933758
             },
             {
                 "nose": 1.0002931233347678,
@@ -4607,9 +4171,7 @@
                 "leftKnee": 0.9748203232881015,
                 "rightKnee": 0.9575874138895636,
                 "leftAnkle": 1.002413632598667,
-                "rightAnkle": 1.0031132213142246,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0031132213142246
             },
             {
                 "nose": 0.9899310401079375,
@@ -4628,9 +4190,7 @@
                 "leftKnee": 1.0022529209450928,
                 "rightKnee": 1.0503750750440697,
                 "leftAnkle": 0.9877111892287422,
-                "rightAnkle": 0.9794351033642122,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9794351033642122
             },
             {
                 "nose": 1.0072784489728521,
@@ -4649,9 +4209,7 @@
                 "leftKnee": 1.0453069758256364,
                 "rightKnee": 1.3239273458968688,
                 "leftAnkle": 0.9431948496621424,
-                "rightAnkle": 0.9862613501170661,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9862613501170661
             },
             {
                 "nose": 1.0297275843180023,
@@ -4670,9 +4228,7 @@
                 "leftKnee": 1.0332208499250608,
                 "rightKnee": 1.149094586549503,
                 "leftAnkle": 0.967316949879996,
-                "rightAnkle": 0.9854110584186909,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9854110584186909
             },
             {
                 "nose": 0.9981976358885598,
@@ -4691,9 +4247,7 @@
                 "leftKnee": 1.0025612309383565,
                 "rightKnee": 1.0727399071350725,
                 "leftAnkle": 1.006116063975367,
-                "rightAnkle": 0.967216069169485,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.967216069169485
             },
             {
                 "nose": 0.9879793694707585,
@@ -4712,9 +4266,7 @@
                 "leftKnee": 1.002808609379772,
                 "rightKnee": 0.9503360650735896,
                 "leftAnkle": 0.9917230121156385,
-                "rightAnkle": 1.000009949052686,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.000009949052686
             },
             {
                 "nose": 1.0168123289840356,
@@ -4733,9 +4285,7 @@
                 "leftKnee": 1.0033480044114884,
                 "rightKnee": 0.902772301082064,
                 "leftAnkle": 1.0159303955150085,
-                "rightAnkle": 0.9874650836367724,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9874650836367724
             },
             {
                 "nose": 0.9965552877432061,
@@ -4754,9 +4304,7 @@
                 "leftKnee": 1.0155127895034761,
                 "rightKnee": 1.0655291681320045,
                 "leftAnkle": 0.9651169048134016,
-                "rightAnkle": 0.9951075638437344,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9951075638437344
             },
             {
                 "nose": 0.9956871766071653,
@@ -4775,9 +4323,7 @@
                 "leftKnee": 0.9375553024727953,
                 "rightKnee": 0.9749279274190739,
                 "leftAnkle": 1.0598885388265529,
-                "rightAnkle": 0.9519361073363858,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9519361073363858
             },
             {
                 "nose": 0.9954593558296241,
@@ -4796,9 +4342,7 @@
                 "leftKnee": 1.0488436355732003,
                 "rightKnee": 0.9970315460773144,
                 "leftAnkle": 0.9201659743529214,
-                "rightAnkle": 0.9980484325799177,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9980484325799177
             },
             {
                 "nose": 1.0194569685081438,
@@ -4817,9 +4361,7 @@
                 "leftKnee": 0.9604717555888359,
                 "rightKnee": 0.9282339127191259,
                 "leftAnkle": 0.9908314310669467,
-                "rightAnkle": 1.0096047693431722,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0096047693431722
             },
             {
                 "nose": 1.017730179290353,
@@ -4838,9 +4380,7 @@
                 "leftKnee": 1.0559359098506869,
                 "rightKnee": 0.9889911818797726,
                 "leftAnkle": 1.026673267450454,
-                "rightAnkle": 1.0277653112753193,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0277653112753193
             }
         ]
     },
@@ -4864,9 +4404,7 @@
                 "leftKnee": 1.8470065382115481,
                 "rightKnee": -7.682184424109403,
                 "leftAnkle": 0.5556292453886864,
-                "rightAnkle": 0.31179989955854,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.31179989955854
             },
             {
                 "nose": 0.9901902189533637,
@@ -4885,9 +4423,7 @@
                 "leftKnee": 0.6533320308335437,
                 "rightKnee": 0.6634983960080808,
                 "leftAnkle": 1.6823658067122098,
-                "rightAnkle": 1.83123683707593,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.83123683707593
             },
             {
                 "nose": 1,
@@ -4906,9 +4442,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 1.0027715578089538,
@@ -4927,9 +4461,7 @@
                 "leftKnee": 1.2477981165337506,
                 "rightKnee": 1.383053121691544,
                 "leftAnkle": 0.7273453266855587,
-                "rightAnkle": 0.7636538508631177,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.7636538508631177
             },
             {
                 "nose": 0.9979894350983467,
@@ -4948,9 +4480,7 @@
                 "leftKnee": 0.8681373587576995,
                 "rightKnee": 0.8366925882053663,
                 "leftAnkle": 1.0315561062062417,
-                "rightAnkle": 1.0071701104448847,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0071701104448847
             },
             {
                 "nose": 1.0051065884007808,
@@ -4969,9 +4499,7 @@
                 "leftKnee": 1.1209200198895648,
                 "rightKnee": 1.0884813370656548,
                 "leftAnkle": 1.122822433312193,
-                "rightAnkle": 1.1323400607461593,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.1323400607461593
             },
             {
                 "nose": 0.9949958951059431,
@@ -4990,9 +4518,7 @@
                 "leftKnee": 1.1392064224448302,
                 "rightKnee": 1.0949813273859805,
                 "leftAnkle": 0.9150039972770903,
-                "rightAnkle": 0.9067405438771051,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9067405438771051
             },
             {
                 "nose": 0.9962616873221971,
@@ -5011,9 +4537,7 @@
                 "leftKnee": 0.8783048898027292,
                 "rightKnee": 0.8741705197112537,
                 "leftAnkle": 1.2157421382674305,
-                "rightAnkle": 1.1819487497235457,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.1819487497235457
             },
             {
                 "nose": 1.0068062564550817,
@@ -5032,9 +4556,7 @@
                 "leftKnee": 1.0844964888788462,
                 "rightKnee": 1.054834483026565,
                 "leftAnkle": 1.0614960318718019,
-                "rightAnkle": 1.0767739710286757,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0767739710286757
             },
             {
                 "nose": 1.0040404392002562,
@@ -5053,9 +4575,7 @@
                 "leftKnee": 0.7276316993301342,
                 "rightKnee": 0.7963838886795216,
                 "leftAnkle": 1.193730901756107,
-                "rightAnkle": 1.180360109934175,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.180360109934175
             },
             {
                 "nose": 1,
@@ -5074,9 +4594,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 0.9937574792439949,
@@ -5095,9 +4613,7 @@
                 "leftKnee": 1.00026932656927,
                 "rightKnee": 0.9184405850587677,
                 "leftAnkle": 1.0189599095623727,
-                "rightAnkle": 1.0186144223324198,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0186144223324198
             },
             {
                 "nose": 0.9962088949614464,
@@ -5116,9 +4632,7 @@
                 "leftKnee": 0.8450709053933622,
                 "rightKnee": 0.7897200012990453,
                 "leftAnkle": 0.973584293472557,
-                "rightAnkle": 0.9844182852791581,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9844182852791581
             },
             {
                 "nose": 0.994448246627119,
@@ -5137,9 +4651,7 @@
                 "leftKnee": 1.060663216339721,
                 "rightKnee": 0.8531796482734224,
                 "leftAnkle": 0.920946490398273,
-                "rightAnkle": 0.9389039671662169,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9389039671662169
             },
             {
                 "nose": 1.0079652783958166,
@@ -5158,9 +4670,7 @@
                 "leftKnee": 1.034483336765162,
                 "rightKnee": 0.9114359128916688,
                 "leftAnkle": 1.002427091323216,
-                "rightAnkle": 1.0108138178791106,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0108138178791106
             },
             {
                 "nose": 1.0052880435730833,
@@ -5179,9 +4689,7 @@
                 "leftKnee": 0.9411556553205398,
                 "rightKnee": 0.9161046258919348,
                 "leftAnkle": 1.0218093156487962,
-                "rightAnkle": 1.0177563792436013,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0177563792436013
             },
             {
                 "nose": 0.9970386205962083,
@@ -5200,9 +4708,7 @@
                 "leftKnee": 0.9940328670365274,
                 "rightKnee": 0.8153044012947759,
                 "leftAnkle": 1.0036668139941,
-                "rightAnkle": 1.0057410538657778,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0057410538657778
             },
             {
                 "nose": 0.9944394075315305,
@@ -5221,9 +4727,7 @@
                 "leftKnee": 0.9637918959317268,
                 "rightKnee": 1.1987908387278468,
                 "leftAnkle": 0.9755103517955772,
-                "rightAnkle": 0.9846501357463167,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9846501357463167
             },
             {
                 "nose": 0.9909379016868008,
@@ -5242,9 +4746,7 @@
                 "leftKnee": 1.0180937516032236,
                 "rightKnee": 1.0841946970016159,
                 "leftAnkle": 1.0059579168313548,
-                "rightAnkle": 1.0076717446515286,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0076717446515286
             },
             {
                 "nose": 1.004908675145172,
@@ -5263,9 +4765,7 @@
                 "leftKnee": 1.307924020709052,
                 "rightKnee": 1.2772359890790104,
                 "leftAnkle": 0.9714955296724119,
-                "rightAnkle": 0.989517526139191,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.989517526139191
             },
             {
                 "nose": 1.0002979520352981,
@@ -5284,9 +4784,7 @@
                 "leftKnee": 1.0368271130119433,
                 "rightKnee": 0.9026688286497434,
                 "leftAnkle": 1.0050175670055452,
-                "rightAnkle": 1.0036088878771297,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0036088878771297
             },
             {
                 "nose": 0.9982460852555127,
@@ -5305,9 +4803,7 @@
                 "leftKnee": 0.9347744922493596,
                 "rightKnee": 0.925189812732968,
                 "leftAnkle": 0.9868240080992022,
-                "rightAnkle": 0.9818860344609924,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9818860344609924
             },
             {
                 "nose": 1.0105582935105766,
@@ -5326,9 +4822,7 @@
                 "leftKnee": 0.8212340332865248,
                 "rightKnee": 0.9083941934643498,
                 "leftAnkle": 1.0474057435388453,
-                "rightAnkle": 1.0270547670289258,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0270547670289258
             },
             {
                 "nose": 1.002026572943261,
@@ -5347,9 +4841,7 @@
                 "leftKnee": 0.971425765022607,
                 "rightKnee": 1.0773237474333006,
                 "leftAnkle": 1.056167095810049,
-                "rightAnkle": 1.047836338496296,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.047836338496296
             },
             {
                 "nose": 0.9971008648159012,
@@ -5368,9 +4860,7 @@
                 "leftKnee": 1.0235752551386894,
                 "rightKnee": 0.7975064272854075,
                 "leftAnkle": 0.9254087759347869,
-                "rightAnkle": 0.9267285411430418,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9267285411430418
             },
             {
                 "nose": 0.999417039283044,
@@ -5389,9 +4879,7 @@
                 "leftKnee": 0.9750497876042762,
                 "rightKnee": 0.8832446012644807,
                 "leftAnkle": 1.0007992131439436,
-                "rightAnkle": 1.0113629118142635,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0113629118142635
             },
             {
                 "nose": 0.9928787669241667,
@@ -5410,9 +4898,7 @@
                 "leftKnee": 1.34972437030098,
                 "rightKnee": 1.615761229911693,
                 "leftAnkle": 0.9451297679827082,
-                "rightAnkle": 0.9440370712951633,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9440370712951633
             },
             {
                 "nose": 1,
@@ -5431,9 +4917,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 1.016211173470091,
@@ -5452,9 +4936,7 @@
                 "leftKnee": 0.9991002069726478,
                 "rightKnee": 0.967229470215562,
                 "leftAnkle": 0.9608526086545512,
-                "rightAnkle": 0.9700558488771092,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9700558488771092
             },
             {
                 "nose": 1.0016032482845212,
@@ -5473,9 +4955,7 @@
                 "leftKnee": 0.9836148287556377,
                 "rightKnee": 1.1260713346910711,
                 "leftAnkle": 0.9854648238906382,
-                "rightAnkle": 0.9661675357101198,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9661675357101198
             },
             {
                 "nose": 0.9984024770457894,
@@ -5494,9 +4974,7 @@
                 "leftKnee": 0.8975702997004943,
                 "rightKnee": 1.0117450922377602,
                 "leftAnkle": 0.9755594975532602,
-                "rightAnkle": 1.0106443041063702,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0106443041063702
             },
             {
                 "nose": 1.0011883045573242,
@@ -5515,9 +4993,7 @@
                 "leftKnee": 1.2936254938615313,
                 "rightKnee": 1.3347882058315372,
                 "leftAnkle": 0.9513574172008,
-                "rightAnkle": 0.9509076920971039,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9509076920971039
             },
             {
                 "nose": 0.990347441407962,
@@ -5536,9 +5012,7 @@
                 "leftKnee": 1.0385634284366203,
                 "rightKnee": 1.0337444914324407,
                 "leftAnkle": 1.0167025800721372,
-                "rightAnkle": 1.010873266724913,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.010873266724913
             },
             {
                 "nose": 0.9992697089606118,
@@ -5557,9 +5031,7 @@
                 "leftKnee": 0.9870991797336183,
                 "rightKnee": 1.0062455009606714,
                 "leftAnkle": 0.9417412354831297,
-                "rightAnkle": 0.9684636273093632,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9684636273093632
             },
             {
                 "nose": 1.0123608381139348,
@@ -5578,9 +5050,7 @@
                 "leftKnee": 0.8356110916263246,
                 "rightKnee": 0.842561192717114,
                 "leftAnkle": 1.069371310290099,
-                "rightAnkle": 0.9496826724626973,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9496826724626973
             },
             {
                 "nose": 1.009805960841634,
@@ -5599,9 +5069,7 @@
                 "leftKnee": 1.2375516005938272,
                 "rightKnee": 1.0947165736419355,
                 "leftAnkle": 0.9187759849331337,
-                "rightAnkle": 0.9710782247698396,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9710782247698396
             },
             {
                 "nose": 0.9998415570157465,
@@ -5620,9 +5088,7 @@
                 "leftKnee": 1.1833450626497286,
                 "rightKnee": 1.5447006098856528,
                 "leftAnkle": 0.9447075687094884,
-                "rightAnkle": 0.9763022267621337,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9763022267621337
             },
             {
                 "nose": 0.9951028420965136,
@@ -5641,9 +5107,7 @@
                 "leftKnee": 0.8298946112010873,
                 "rightKnee": 0.8952903245780724,
                 "leftAnkle": 1.127610370371312,
-                "rightAnkle": 1.0894864468807397,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0894864468807397
             },
             {
                 "nose": 1.0084077991106868,
@@ -5662,9 +5126,7 @@
                 "leftKnee": 1.0475105257278468,
                 "rightKnee": 1.039834279892439,
                 "leftAnkle": 1.0057734565107568,
-                "rightAnkle": 1.0236358832169363,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0236358832169363
             },
             {
                 "nose": 1.0002118882562736,
@@ -5683,9 +5145,7 @@
                 "leftKnee": 0.8545901452248833,
                 "rightKnee": 0.8488110655888053,
                 "leftAnkle": 1.0669064908221266,
-                "rightAnkle": 1.0562229842412296,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0562229842412296
             },
             {
                 "nose": 1.0018281992383775,
@@ -5704,9 +5164,7 @@
                 "leftKnee": 1.0116809453523725,
                 "rightKnee": 0.94762298840124,
                 "leftAnkle": 0.8229618994498724,
-                "rightAnkle": 0.831877526228341,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.831877526228341
             },
             {
                 "nose": 1.0094540126365423,
@@ -5725,9 +5183,7 @@
                 "leftKnee": 1.1489521008801928,
                 "rightKnee": 1.0723593637463704,
                 "leftAnkle": 0.929079459438854,
-                "rightAnkle": 0.9452001674122625,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9452001674122625
             },
             {
                 "nose": 1.0039134916319956,
@@ -5746,9 +5202,7 @@
                 "leftKnee": 1.1052653823887029,
                 "rightKnee": 1.22992111986772,
                 "leftAnkle": 1.042423516776778,
-                "rightAnkle": 0.9898065487004184,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9898065487004184
             },
             {
                 "nose": 0.9987155998400958,
@@ -5767,9 +5221,7 @@
                 "leftKnee": 0.9458700961356418,
                 "rightKnee": 0.8947046187178557,
                 "leftAnkle": 0.9835104572943617,
-                "rightAnkle": 0.9831388120293564,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9831388120293564
             },
             {
                 "nose": 1.008544992999075,
@@ -5788,9 +5240,7 @@
                 "leftKnee": 0.882019005745015,
                 "rightKnee": 0.8883813676834673,
                 "leftAnkle": 1.0864975423168843,
-                "rightAnkle": 1.106693198101557,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.106693198101557
             },
             {
                 "nose": 0.9692885747614288,
@@ -5809,9 +5259,7 @@
                 "leftKnee": 0.9487836463935538,
                 "rightKnee": 0.9960756178907274,
                 "leftAnkle": 0.9627295816152001,
-                "rightAnkle": 0.9385869679886917,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9385869679886917
             },
             {
                 "nose": 1.0378945532260466,
@@ -5830,9 +5278,7 @@
                 "leftKnee": 1.1836373670696307,
                 "rightKnee": 1.0669758292788865,
                 "leftAnkle": 1.0776555489126065,
-                "rightAnkle": 1.0626119151672992,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0626119151672992
             },
             {
                 "nose": 0.9829623512145332,
@@ -5851,9 +5297,7 @@
                 "leftKnee": 1.0750405595429302,
                 "rightKnee": 1.0340798000734812,
                 "leftAnkle": 0.9635713977902873,
-                "rightAnkle": 1.028337973963475,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.028337973963475
             },
             {
                 "nose": 1.0097198440492872,
@@ -5872,9 +5316,7 @@
                 "leftKnee": 1.0769557984133418,
                 "rightKnee": 1.001709400772847,
                 "leftAnkle": 0.972781666840589,
-                "rightAnkle": 0.9781457114210637,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9781457114210637
             },
             {
                 "nose": 0.9903184858514291,
@@ -5893,9 +5335,7 @@
                 "leftKnee": 0.8512705412179842,
                 "rightKnee": 0.6784187514118151,
                 "leftAnkle": 1.077187298342129,
-                "rightAnkle": 1.126067075439966,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.126067075439966
             },
             {
                 "nose": 1.0034816813649767,
@@ -5914,9 +5354,7 @@
                 "leftKnee": 1.0430589517643643,
                 "rightKnee": 1.0745323612825144,
                 "leftAnkle": 1.0669678282129016,
-                "rightAnkle": 1.0148277954581657,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0148277954581657
             },
             {
                 "nose": 1.0062049858878845,
@@ -5935,9 +5373,7 @@
                 "leftKnee": 1.0121930400875552,
                 "rightKnee": 1.120727580483334,
                 "leftAnkle": 0.9101428180991903,
-                "rightAnkle": 0.8630247040798092,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.8630247040798092
             },
             {
                 "nose": 0.9989954891789358,
@@ -5956,9 +5392,7 @@
                 "leftKnee": 0.7369416475255866,
                 "rightKnee": 0.49446173811764554,
                 "leftAnkle": 1.2050332374726989,
-                "rightAnkle": 1.3337869367478716,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.3337869367478716
             },
             {
                 "nose": 1.008273683454165,
@@ -5977,9 +5411,7 @@
                 "leftKnee": 1.2080128744692464,
                 "rightKnee": 1.47997125598354,
                 "leftAnkle": 1.0650052966625518,
-                "rightAnkle": 1.045444267058478,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.045444267058478
             },
             {
                 "nose": 0.9999864604866096,
@@ -5998,9 +5430,7 @@
                 "leftKnee": 1.1470361366278035,
                 "rightKnee": 1.1225619854179425,
                 "leftAnkle": 0.9022582642418643,
-                "rightAnkle": 0.905806759983834,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.905806759983834
             },
             {
                 "nose": 0.9972510184520811,
@@ -6019,9 +5449,7 @@
                 "leftKnee": 0.9036636709128131,
                 "rightKnee": 0.6064223783495659,
                 "leftAnkle": 0.8317198345855401,
-                "rightAnkle": 1.0981235172740782,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0981235172740782
             },
             {
                 "nose": 0.9942594663632045,
@@ -6040,9 +5468,7 @@
                 "leftKnee": 1.0036055009674705,
                 "rightKnee": 1.1306900894986671,
                 "leftAnkle": 0.9855940841281843,
-                "rightAnkle": 0.9470880453846532,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9470880453846532
             },
             {
                 "nose": 0.9922713339226561,
@@ -6061,9 +5487,7 @@
                 "leftKnee": 1.1945968077597717,
                 "rightKnee": 1.4024571351825474,
                 "leftAnkle": 0.9856586164537381,
-                "rightAnkle": 0.9374772232601736,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9374772232601736
             },
             {
                 "nose": 1,
@@ -6082,9 +5506,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 0.9920703098312795,
@@ -6103,9 +5525,7 @@
                 "leftKnee": 1.1429822132746945,
                 "rightKnee": 1.2962656774406511,
                 "leftAnkle": 0.8774204718618956,
-                "rightAnkle": 0.9368402504642553,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9368402504642553
             },
             {
                 "nose": 1.0037962627296313,
@@ -6124,9 +5544,7 @@
                 "leftKnee": 1.0020596131149613,
                 "rightKnee": 0.9854092718054738,
                 "leftAnkle": 1.0898655385071172,
-                "rightAnkle": 1.028753527875005,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.028753527875005
             },
             {
                 "nose": 0.9889677422046688,
@@ -6145,9 +5563,7 @@
                 "leftKnee": 0.9233858069123637,
                 "rightKnee": 0.6739234821568232,
                 "leftAnkle": 0.8614517697132479,
-                "rightAnkle": 1.1175506413839282,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.1175506413839282
             },
             {
                 "nose": 0.9951010240547964,
@@ -6166,9 +5582,7 @@
                 "leftKnee": 0.9586271443668283,
                 "rightKnee": 0.9824911323516818,
                 "leftAnkle": 0.9841713370160345,
-                "rightAnkle": 0.8991947292202358,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.8991947292202358
             },
             {
                 "nose": 0.9904498807245221,
@@ -6187,9 +5601,7 @@
                 "leftKnee": 0.9925682061823975,
                 "rightKnee": 1.0567342628052878,
                 "leftAnkle": 0.9697294054930693,
-                "rightAnkle": 0.9696856687407602,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9696856687407602
             },
             {
                 "nose": 1.0045166740584741,
@@ -6208,9 +5620,7 @@
                 "leftKnee": 1.0990537912943767,
                 "rightKnee": 1.1375762607077906,
                 "leftAnkle": 0.7966608793859704,
-                "rightAnkle": 0.8686278010303954,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.8686278010303954
             },
             {
                 "nose": 0.9877626309079403,
@@ -6229,9 +5639,7 @@
                 "leftKnee": 0.908653778847717,
                 "rightKnee": 0.46976407957107463,
                 "leftAnkle": 1.0304126419593425,
-                "rightAnkle": 1.0702602866155706,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0702602866155706
             },
             {
                 "nose": 1.0046958515105486,
@@ -6250,9 +5658,7 @@
                 "leftKnee": 1.0232217984422292,
                 "rightKnee": 1.4848236299258195,
                 "leftAnkle": 1.2207233403179756,
-                "rightAnkle": 1.1381604808077204,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.1381604808077204
             },
             {
                 "nose": 0.9854010341827838,
@@ -6271,9 +5677,7 @@
                 "leftKnee": 0.9951464415910433,
                 "rightKnee": 1.147798372922796,
                 "leftAnkle": 0.8808010330408934,
-                "rightAnkle": 0.985489391571762,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.985489391571762
             },
             {
                 "nose": 1.0028906304881493,
@@ -6292,9 +5696,7 @@
                 "leftKnee": 1.0097495364280995,
                 "rightKnee": 0.7808218964149443,
                 "leftAnkle": 1.1158911554635997,
-                "rightAnkle": 1.0780091592906575,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0780091592906575
             },
             {
                 "nose": 0.9896400456479638,
@@ -6313,9 +5715,7 @@
                 "leftKnee": 1.0649051829804617,
                 "rightKnee": 0.9294087018321429,
                 "leftAnkle": 0.9872240455125104,
-                "rightAnkle": 1.0930945619490942,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0930945619490942
             },
             {
                 "nose": 1,
@@ -6334,9 +5734,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 1.0144990889847454,
@@ -6355,9 +5753,7 @@
                 "leftKnee": 1.0256865981901635,
                 "rightKnee": 1.2392302453024575,
                 "leftAnkle": 1.0511718855303547,
-                "rightAnkle": 1.0995917209132093,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0995917209132093
             }
         ]
     },
@@ -6381,9 +5777,7 @@
                 "leftKnee": 1.0133626783602212,
                 "rightKnee": 0.9570117246202039,
                 "leftAnkle": 0.98503942650665,
-                "rightAnkle": 1.0520884711151595,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0520884711151595
             },
             {
                 "nose": 1.0094845986898389,
@@ -6402,9 +5796,7 @@
                 "leftKnee": 1.0416362027503574,
                 "rightKnee": 1.0758862071072008,
                 "leftAnkle": 1.0422179682596457,
-                "rightAnkle": 1.0462140677300609,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0462140677300609
             },
             {
                 "nose": 1,
@@ -6423,9 +5815,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 1.0074674502583276,
@@ -6444,9 +5834,7 @@
                 "leftKnee": 1.058514093810396,
                 "rightKnee": 1.1766772266387895,
                 "leftAnkle": 0.9346347195356419,
-                "rightAnkle": 0.9766876597194658,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9766876597194658
             },
             {
                 "nose": 0.9805120454883546,
@@ -6465,9 +5853,7 @@
                 "leftKnee": 1.0253036042996115,
                 "rightKnee": 1.0499775820436124,
                 "leftAnkle": 0.9361609762388928,
-                "rightAnkle": 1.0097061694754887,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0097061694754887
             },
             {
                 "nose": 1.0049360899190272,
@@ -6486,9 +5872,7 @@
                 "leftKnee": 0.9267417311027268,
                 "rightKnee": 0.6908753408482958,
                 "leftAnkle": 1.0250807816871321,
-                "rightAnkle": 0.9804455075735768,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9804455075735768
             },
             {
                 "nose": 0.9895572918174542,
@@ -6507,9 +5891,7 @@
                 "leftKnee": 1.0053194689924847,
                 "rightKnee": 0.7471523228508794,
                 "leftAnkle": 0.9487462241337282,
-                "rightAnkle": 1.0430223485924817,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0430223485924817
             },
             {
                 "nose": 1.0273800906980814,
@@ -6528,9 +5910,7 @@
                 "leftKnee": 0.9551398737740499,
                 "rightKnee": 1.1157965505443366,
                 "leftAnkle": 0.969860723578097,
-                "rightAnkle": 0.9881875421348933,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9881875421348933
             },
             {
                 "nose": 1.007943275366681,
@@ -6549,9 +5929,7 @@
                 "leftKnee": 0.9705504253505852,
                 "rightKnee": 1.0341992453532738,
                 "leftAnkle": 1.019433194100125,
-                "rightAnkle": 0.9967028328820834,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9967028328820834
             },
             {
                 "nose": 1.0112363116343235,
@@ -6570,9 +5948,7 @@
                 "leftKnee": 1.04388013214737,
                 "rightKnee": 1.0093424687411832,
                 "leftAnkle": 1.0569760078882184,
-                "rightAnkle": 0.9856401915458709,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9856401915458709
             },
             {
                 "nose": 0.9695346926200162,
@@ -6591,9 +5967,7 @@
                 "leftKnee": 1.0809479637272221,
                 "rightKnee": 1.3465350900940525,
                 "leftAnkle": 1.1311431651595105,
-                "rightAnkle": 1.0279723005431782,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0279723005431782
             },
             {
                 "nose": 0.986796669808087,
@@ -6612,9 +5986,7 @@
                 "leftKnee": 0.6444802176486146,
                 "rightKnee": 0.9472855779818644,
                 "leftAnkle": 0.9961623402367293,
-                "rightAnkle": 0.9996403850066524,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9996403850066524
             },
             {
                 "nose": 1.0021894049516047,
@@ -6633,9 +6005,7 @@
                 "leftKnee": 0.9152296149091538,
                 "rightKnee": 0.952904108962836,
                 "leftAnkle": 0.9494925061979367,
-                "rightAnkle": 0.9441133940589507,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9441133940589507
             },
             {
                 "nose": 1,
@@ -6654,9 +6024,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 1.004573651826778,
@@ -6675,9 +6043,7 @@
                 "leftKnee": 1.6054907813757753,
                 "rightKnee": 0.5044010530518925,
                 "leftAnkle": 0.9189120061521232,
-                "rightAnkle": 1.0077331141873533,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0077331141873533
             },
             {
                 "nose": 0.9897237070371989,
@@ -6696,9 +6062,7 @@
                 "leftKnee": 0.632684147717822,
                 "rightKnee": 2.16110954374821,
                 "leftAnkle": 0.9917948071544048,
-                "rightAnkle": 1.007633081885544,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.007633081885544
             },
             {
                 "nose": 1.0124291335722764,
@@ -6717,9 +6081,7 @@
                 "leftKnee": 1.0161137641453093,
                 "rightKnee": 1.0854524953060558,
                 "leftAnkle": 0.9990952634479153,
-                "rightAnkle": 0.9933872477628956,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9933872477628956
             },
             {
                 "nose": 0.9933134793537266,
@@ -6738,9 +6100,7 @@
                 "leftKnee": 0.9479528429336456,
                 "rightKnee": 0.9960903988372413,
                 "leftAnkle": 1.0184468532913735,
-                "rightAnkle": 0.9870168515834814,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9870168515834814
             },
             {
                 "nose": 1.008280857317208,
@@ -6759,9 +6119,7 @@
                 "leftKnee": 1.8469251047618356,
                 "rightKnee": 1.0378932599354156,
                 "leftAnkle": 1.0124454054101575,
-                "rightAnkle": 1.0325555551028083,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0325555551028083
             },
             {
                 "nose": 0.9950472257518871,
@@ -6780,9 +6138,7 @@
                 "leftKnee": 0.9944805711641825,
                 "rightKnee": 0.9709735920737964,
                 "leftAnkle": 1.0230264699035112,
-                "rightAnkle": 1.006763587301981,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.006763587301981
             },
             {
                 "nose": 1.0064474640121996,
@@ -6801,9 +6157,7 @@
                 "leftKnee": 1.0046742941373292,
                 "rightKnee": 0.996381072013869,
                 "leftAnkle": 0.9918663219401717,
-                "rightAnkle": 0.9934392735135512,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9934392735135512
             },
             {
                 "nose": 1.006113358473528,
@@ -6822,9 +6176,7 @@
                 "leftKnee": 0.9999131408791657,
                 "rightKnee": 0.9624367942794296,
                 "leftAnkle": 0.9995668061562721,
-                "rightAnkle": 0.9941865573520248,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9941865573520248
             },
             {
                 "nose": 0.9928018579076425,
@@ -6843,9 +6195,7 @@
                 "leftKnee": 0.9457331527995831,
                 "rightKnee": 0.9196860103217993,
                 "leftAnkle": 0.9520319710765069,
-                "rightAnkle": 0.9702703574641031,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9702703574641031
             },
             {
                 "nose": 0.9924171507008029,
@@ -6864,9 +6214,7 @@
                 "leftKnee": 1.0356913838515456,
                 "rightKnee": 1.1079378878736723,
                 "leftAnkle": 0.9760814131149071,
-                "rightAnkle": 0.994287864618411,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.994287864618411
             },
             {
                 "nose": 1.0090605850539165,
@@ -6885,9 +6233,7 @@
                 "leftKnee": 0.9469031672492906,
                 "rightKnee": 0.8310425263235401,
                 "leftAnkle": 1.1145520099308543,
-                "rightAnkle": 1.0310806842859626,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0310806842859626
             },
             {
                 "nose": 1.0038297104144718,
@@ -6906,9 +6252,7 @@
                 "leftKnee": 1.0447040161028924,
                 "rightKnee": 1.1102280568957323,
                 "leftAnkle": 0.9817660310922844,
-                "rightAnkle": 0.9924404021529302,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9924404021529302
             },
             {
                 "nose": 1.0035558619633267,
@@ -6927,9 +6271,7 @@
                 "leftKnee": 0.9923117827596427,
                 "rightKnee": 0.9108297651623669,
                 "leftAnkle": 1.0654058308104173,
-                "rightAnkle": 1.0227713543343773,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0227713543343773
             },
             {
                 "nose": 0.9932549375473115,
@@ -6948,9 +6290,7 @@
                 "leftKnee": 1.0069792006269467,
                 "rightKnee": 0.9884319632038274,
                 "leftAnkle": 1.0848285928207784,
-                "rightAnkle": 0.9749866927337211,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9749866927337211
             },
             {
                 "nose": 0.9976630681582811,
@@ -6969,9 +6309,7 @@
                 "leftKnee": 0.9778694112621258,
                 "rightKnee": 0.7884382940581319,
                 "leftAnkle": 0.862604355996425,
-                "rightAnkle": 1.0281907671043644,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0281907671043644
             },
             {
                 "nose": 1.0019468348549596,
@@ -6990,9 +6328,7 @@
                 "leftKnee": 1.0120539772816648,
                 "rightKnee": 1.1401814510675585,
                 "leftAnkle": 1.0364738908867273,
-                "rightAnkle": 0.9894495862112026,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9894495862112026
             },
             {
                 "nose": 0.9869987813004941,
@@ -7011,9 +6347,7 @@
                 "leftKnee": 1.0697186014396107,
                 "rightKnee": 1.3625112773455987,
                 "leftAnkle": 1.1492278403836826,
-                "rightAnkle": 0.9481278139867292,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9481278139867292
             },
             {
                 "nose": 1.0071045006909836,
@@ -7032,9 +6366,7 @@
                 "leftKnee": 0.9549415827796618,
                 "rightKnee": 1.0069987559284614,
                 "leftAnkle": 0.9266132877093513,
-                "rightAnkle": 1.0620671216562771,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0620671216562771
             },
             {
                 "nose": 0.9990329243704705,
@@ -7053,9 +6385,7 @@
                 "leftKnee": 1.0502760552323458,
                 "rightKnee": 1.0150410633063822,
                 "leftAnkle": 0.9500631831156342,
-                "rightAnkle": 0.9999479518436919,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9999479518436919
             },
             {
                 "nose": 1.000434689715495,
@@ -7074,9 +6404,7 @@
                 "leftKnee": 0.8896857561110683,
                 "rightKnee": 0.8451272012256666,
                 "leftAnkle": 0.978695697180101,
-                "rightAnkle": 0.9901875655052738,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9901875655052738
             },
             {
                 "nose": 1.0090775852175924,
@@ -7095,9 +6423,7 @@
                 "leftKnee": 0.9536264160302803,
                 "rightKnee": 0.9210431516422442,
                 "leftAnkle": 0.9655801237943024,
-                "rightAnkle": 0.9880863833684861,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9880863833684861
             },
             {
                 "nose": 0.9971896632741826,
@@ -7116,9 +6442,7 @@
                 "leftKnee": 1.0277393349075978,
                 "rightKnee": 1.1431629029406654,
                 "leftAnkle": 0.8690969858815155,
-                "rightAnkle": 0.9536816269451533,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9536816269451533
             }
         ]
     },
@@ -7142,9 +6466,7 @@
                 "leftKnee": 0.723601483915012,
                 "rightKnee": 0.5921009999357967,
                 "leftAnkle": 1.3022813681291474,
-                "rightAnkle": 1.1750009136818738,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.1750009136818738
             },
             {
                 "nose": 1.000819513716207,
@@ -7163,9 +6485,7 @@
                 "leftKnee": 1.1069473126050446,
                 "rightKnee": 0.8776038284678949,
                 "leftAnkle": 0.9068545719977602,
-                "rightAnkle": 0.9987002091081533,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9987002091081533
             },
             {
                 "nose": 0.9927934809049043,
@@ -7184,9 +6504,7 @@
                 "leftKnee": 1.0606423568949657,
                 "rightKnee": 1.1432430520061958,
                 "leftAnkle": 1.1793650502499904,
-                "rightAnkle": 1.0026722289586303,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0026722289586303
             },
             {
                 "nose": 1,
@@ -7205,9 +6523,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 1.0691168932484976,
@@ -7226,9 +6542,7 @@
                 "leftKnee": 1.1381386725742848,
                 "rightKnee": 1.284519844584863,
                 "leftAnkle": 0.8582702625415246,
-                "rightAnkle": 0.9613387968111077,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9613387968111077
             },
             {
                 "nose": 0.9460700699682784,
@@ -7247,9 +6561,7 @@
                 "leftKnee": 0.9009808336200666,
                 "rightKnee": 1.174701497392493,
                 "leftAnkle": 1.0085032472689182,
-                "rightAnkle": 0.9623929727319914,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9623929727319914
             },
             {
                 "nose": 0.9816204898732864,
@@ -7268,9 +6580,7 @@
                 "leftKnee": 0.9758644183238848,
                 "rightKnee": 0.9729567044927839,
                 "leftAnkle": 1.0005820850967628,
-                "rightAnkle": 0.9686562376123472,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9686562376123472
             },
             {
                 "nose": 1.011168494709729,
@@ -7289,9 +6599,7 @@
                 "leftKnee": 1.0648722572819165,
                 "rightKnee": 0.90610787274643,
                 "leftAnkle": 0.9868016741018543,
-                "rightAnkle": 1.0611351889915368,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0611351889915368
             },
             {
                 "nose": 0.9815576742750479,
@@ -7310,9 +6618,7 @@
                 "leftKnee": 1.0533614492996792,
                 "rightKnee": 1.0257568464890976,
                 "leftAnkle": 0.9981633664865301,
-                "rightAnkle": 1.0312750082469757,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0312750082469757
             },
             {
                 "nose": 1.0176275059390028,
@@ -7331,9 +6637,7 @@
                 "leftKnee": 1.0095522341177983,
                 "rightKnee": 1.1208420191772421,
                 "leftAnkle": 0.9192301729029982,
-                "rightAnkle": 0.9506996611020383,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9506996611020383
             },
             {
                 "nose": 0.9898414000656135,
@@ -7352,9 +6656,7 @@
                 "leftKnee": 0.9432844461705063,
                 "rightKnee": 0.8759799462790973,
                 "leftAnkle": 1.0703574523248858,
-                "rightAnkle": 1.0127823677415335,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0127823677415335
             },
             {
                 "nose": 0.9880491623043468,
@@ -7373,9 +6675,7 @@
                 "leftKnee": 1.0269783837197497,
                 "rightKnee": 1.0652181712741813,
                 "leftAnkle": 0.9878248036109213,
-                "rightAnkle": 0.9117366114446463,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9117366114446463
             },
             {
                 "nose": 1.0052844956440439,
@@ -7394,9 +6694,7 @@
                 "leftKnee": 0.9221229778461848,
                 "rightKnee": 0.9633791481067429,
                 "leftAnkle": 1.154247800597835,
-                "rightAnkle": 1.0191561798311384,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0191561798311384
             },
             {
                 "nose": 1.0117130818394076,
@@ -7415,9 +6713,7 @@
                 "leftKnee": 0.9959188471515491,
                 "rightKnee": 0.36214507566478576,
                 "leftAnkle": 1.1228754783430002,
-                "rightAnkle": 0.969174872964272,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.969174872964272
             },
             {
                 "nose": 0.9783956611430941,
@@ -7436,9 +6732,7 @@
                 "leftKnee": 0.6636597527700999,
                 "rightKnee": 3.2211554903807946,
                 "leftAnkle": 1.0035988118934225,
-                "rightAnkle": 0.8696427159387444,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.8696427159387444
             },
             {
                 "nose": 1.0046445055933781,
@@ -7457,9 +6751,7 @@
                 "leftKnee": 1.0738670030084425,
                 "rightKnee": 0.7374641617713542,
                 "leftAnkle": 1.0236810430953531,
-                "rightAnkle": 0.980206972063226,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.980206972063226
             },
             {
                 "nose": 1.0165410749139552,
@@ -7478,9 +6770,7 @@
                 "leftKnee": 1.2135567020698328,
                 "rightKnee": 1.7364910434356933,
                 "leftAnkle": 0.913134097882389,
-                "rightAnkle": 1.0975921763123295,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0975921763123295
             },
             {
                 "nose": 0.9966252212725102,
@@ -7499,9 +6789,7 @@
                 "leftKnee": 1.2789043650556766,
                 "rightKnee": 1.0003319406104734,
                 "leftAnkle": 1.0031963904836632,
-                "rightAnkle": 0.9725719679987874,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9725719679987874
             },
             {
                 "nose": 1.003074815966688,
@@ -7520,9 +6808,7 @@
                 "leftKnee": 0.40836025751607635,
                 "rightKnee": 1.0441105139182205,
                 "leftAnkle": 1.1542579952062817,
-                "rightAnkle": 0.8703602918252787,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.8703602918252787
             }
         ]
     },
@@ -7546,9 +6832,7 @@
                 "leftKnee": 1.1627993859318673,
                 "rightKnee": 1.4259987422490654,
                 "leftAnkle": 0.8246495459827323,
-                "rightAnkle": 0.9445876680423846,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9445876680423846
             },
             {
                 "nose": 0.9876753805973716,
@@ -7567,9 +6851,7 @@
                 "leftKnee": 1.0220540140302339,
                 "rightKnee": 1.27971962187786,
                 "leftAnkle": 0.996191157893149,
-                "rightAnkle": 1.0224817388984575,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0224817388984575
             },
             {
                 "nose": 1,
@@ -7588,9 +6870,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 1.0762357919462802,
@@ -7609,9 +6889,7 @@
                 "leftKnee": 1.0291563047230758,
                 "rightKnee": 1.2209737706576202,
                 "leftAnkle": 1.1086518657268427,
-                "rightAnkle": 1.0142493721469872,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0142493721469872
             },
             {
                 "nose": 1.0475363592019022,
@@ -7630,9 +6908,7 @@
                 "leftKnee": 1.0168870124781566,
                 "rightKnee": 0.9713276943984038,
                 "leftAnkle": 1.011123602714405,
-                "rightAnkle": 1.0167042923799623,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0167042923799623
             },
             {
                 "nose": 1.0297014481916178,
@@ -7651,9 +6927,7 @@
                 "leftKnee": 0.9785454932585606,
                 "rightKnee": 0.900647819111465,
                 "leftAnkle": 0.957813384857282,
-                "rightAnkle": 1.0133720003580626,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0133720003580626
             },
             {
                 "nose": 0.8598741638901115,
@@ -7672,9 +6946,7 @@
                 "leftKnee": 0.9827577672546087,
                 "rightKnee": 0.9132782808382014,
                 "leftAnkle": 1.0001684248888347,
-                "rightAnkle": 1.0034649679483822,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0034649679483822
             },
             {
                 "nose": 1.0015132871234487,
@@ -7693,9 +6965,7 @@
                 "leftKnee": 1.0037216122136028,
                 "rightKnee": 1.2064534739319455,
                 "leftAnkle": 1.012447710873749,
-                "rightAnkle": 0.9778338526450009,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9778338526450009
             },
             {
                 "nose": 1.0014598720383046,
@@ -7714,9 +6984,7 @@
                 "leftKnee": 1.057840491550089,
                 "rightKnee": 1.0496669755523884,
                 "leftAnkle": 0.9722362059390155,
-                "rightAnkle": 1.0040296927948074,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0040296927948074
             },
             {
                 "nose": 0.985084318424098,
@@ -7735,9 +7003,7 @@
                 "leftKnee": 0.9798425086869278,
                 "rightKnee": 0.8498103230529996,
                 "leftAnkle": 1.0384602976915507,
-                "rightAnkle": 1.0156791296640175,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0156791296640175
             },
             {
                 "nose": 1.0227783293165942,
@@ -7756,9 +7022,7 @@
                 "leftKnee": 0.9880656843753002,
                 "rightKnee": 1.0022280703818172,
                 "leftAnkle": 0.9927702711289534,
-                "rightAnkle": 0.9771792193040351,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9771792193040351
             },
             {
                 "nose": 1.0230354050561679,
@@ -7777,9 +7041,7 @@
                 "leftKnee": 0.9037006426025178,
                 "rightKnee": 0.8838725219090882,
                 "leftAnkle": 1.0692371187003988,
-                "rightAnkle": 1.0017848206038964,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0017848206038964
             },
             {
                 "nose": 1.0083048292242216,
@@ -7798,9 +7060,7 @@
                 "leftKnee": 0.874906505098942,
                 "rightKnee": 0.7256596988271992,
                 "leftAnkle": 0.9827682483488801,
-                "rightAnkle": 0.9830508441112018,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9830508441112018
             },
             {
                 "nose": 0.9924362900278766,
@@ -7819,9 +7079,7 @@
                 "leftKnee": 0.9721893298864697,
                 "rightKnee": 1.1081001475320855,
                 "leftAnkle": 0.9861568209822554,
-                "rightAnkle": 0.9788768206685308,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9788768206685308
             },
             {
                 "nose": 0.9864176456084504,
@@ -7840,9 +7098,7 @@
                 "leftKnee": 1.0962910728292965,
                 "rightKnee": 1.1118436108295342,
                 "leftAnkle": 1.0180030647797693,
-                "rightAnkle": 0.9971906115439041,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9971906115439041
             },
             {
                 "nose": 1,
@@ -7861,9 +7117,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 0.9820482839143285,
@@ -7882,9 +7136,7 @@
                 "leftKnee": 1.051312081551797,
                 "rightKnee": 1.2148386248008003,
                 "leftAnkle": 0.9745207037680419,
-                "rightAnkle": 0.9931540094285268,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9931540094285268
             },
             {
                 "nose": 1.0075958000203729,
@@ -7903,9 +7155,7 @@
                 "leftKnee": 0.9450298111661823,
                 "rightKnee": 0.6673579576136962,
                 "leftAnkle": 1.0138930565923563,
-                "rightAnkle": 1.0573008313977288,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0573008313977288
             },
             {
                 "nose": 1.0012968523955912,
@@ -7924,9 +7174,7 @@
                 "leftKnee": 1.0263105381147675,
                 "rightKnee": 1.2659813457543747,
                 "leftAnkle": 0.9722694056165921,
-                "rightAnkle": 0.9297128156458314,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9297128156458314
             },
             {
                 "nose": 1.0144395268300155,
@@ -7945,9 +7193,7 @@
                 "leftKnee": 1.0494851308987392,
                 "rightKnee": 1.2673898871340503,
                 "leftAnkle": 0.9601568991199728,
-                "rightAnkle": 1.0097183775470464,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0097183775470464
             },
             {
                 "nose": 1.001181718196017,
@@ -7966,9 +7212,7 @@
                 "leftKnee": 1.0599705835297966,
                 "rightKnee": 1.0491378447859636,
                 "leftAnkle": 0.9749944494369287,
-                "rightAnkle": 0.9925905771804182,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9925905771804182
             },
             {
                 "nose": 1.005073115553085,
@@ -7987,9 +7231,7 @@
                 "leftKnee": 1.0064005103321243,
                 "rightKnee": 0.9436921412068103,
                 "leftAnkle": 0.9329460094854755,
-                "rightAnkle": 1.0002836272279192,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0002836272279192
             },
             {
                 "nose": 1.004102772949559,
@@ -8008,9 +7250,7 @@
                 "leftKnee": 1.010526572698614,
                 "rightKnee": 0.9672774114322142,
                 "leftAnkle": 0.924175209439513,
-                "rightAnkle": 0.9848222308684866,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9848222308684866
             },
             {
                 "nose": 0.9994708901860095,
@@ -8029,9 +7269,7 @@
                 "leftKnee": 1.0003692825522565,
                 "rightKnee": 1.0269836074230045,
                 "leftAnkle": 1.034783436951723,
-                "rightAnkle": 1.0285635286819514,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0285635286819514
             },
             {
                 "nose": 0.9879304262417377,
@@ -8050,9 +7288,7 @@
                 "leftKnee": 0.9576470304197483,
                 "rightKnee": 0.7226969898763218,
                 "leftAnkle": 1.0934611022797598,
-                "rightAnkle": 1.041519656149879,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.041519656149879
             },
             {
                 "nose": 0.9927518951836611,
@@ -8071,9 +7307,7 @@
                 "leftKnee": 0.9825267862019984,
                 "rightKnee": 0.9855090978844471,
                 "leftAnkle": 0.9609117273014128,
-                "rightAnkle": 0.9970319078869206,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9970319078869206
             },
             {
                 "nose": 1.0060474968928588,
@@ -8092,9 +7326,7 @@
                 "leftKnee": 0.9149002949334734,
                 "rightKnee": 0.8819082683036075,
                 "leftAnkle": 1.1545605490684427,
-                "rightAnkle": 0.9904449008267795,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9904449008267795
             },
             {
                 "nose": 0.9974469837557327,
@@ -8113,9 +7345,7 @@
                 "leftKnee": 0.9768904753639995,
                 "rightKnee": 1.2378458522811553,
                 "leftAnkle": 1.0997957942354508,
-                "rightAnkle": 0.9613896925976635,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9613896925976635
             },
             {
                 "nose": 1.0150347664796269,
@@ -8134,9 +7364,7 @@
                 "leftKnee": 1.1373676554660799,
                 "rightKnee": 1.3545248789950184,
                 "leftAnkle": 0.9680199272913318,
-                "rightAnkle": 1.0521332321229109,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0521332321229109
             },
             {
                 "nose": 1.0097488002204682,
@@ -8155,9 +7383,7 @@
                 "leftKnee": 1.124765253471376,
                 "rightKnee": 1.289942108169738,
                 "leftAnkle": 0.9125350364750884,
-                "rightAnkle": 0.9377901560861824,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9377901560861824
             }
         ]
     },
@@ -8181,9 +7407,7 @@
                 "leftKnee": 1.0782969338667,
                 "rightKnee": 1.073901821640642,
                 "leftAnkle": 0.08388190779138258,
-                "rightAnkle": 0.7656912018073619,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.7656912018073619
             },
             {
                 "nose": 1.003968291074677,
@@ -8202,9 +7426,7 @@
                 "leftKnee": 1.0673217793600325,
                 "rightKnee": 1.1296031440650687,
                 "leftAnkle": 2.8046470366854033,
-                "rightAnkle": 1.1665071265686053,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.1665071265686053
             },
             {
                 "nose": 1.0893845994979414,
@@ -8223,9 +7445,7 @@
                 "leftKnee": 0.9536939398498081,
                 "rightKnee": 0.9336852085696288,
                 "leftAnkle": 4.584041815631579,
-                "rightAnkle": 1.0147008589414424,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0147008589414424
             },
             {
                 "nose": 1,
@@ -8244,9 +7464,7 @@
                 "leftKnee": 1,
                 "rightKnee": 1,
                 "leftAnkle": 1,
-                "rightAnkle": 1,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1
             },
             {
                 "nose": 0.9110195307097455,
@@ -8265,9 +7483,7 @@
                 "leftKnee": 0.956158938048154,
                 "rightKnee": 0.9172896249663212,
                 "leftAnkle": 1.1706123547069778,
-                "rightAnkle": 1.1302364639902933,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.1302364639902933
             },
             {
                 "nose": 0.9486052108387383,
@@ -8286,9 +7502,7 @@
                 "leftKnee": 0.8537082366053641,
                 "rightKnee": 0.8884019502322024,
                 "leftAnkle": 1.6925015614180647,
-                "rightAnkle": 1.0502769111580317,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0502769111580317
             },
             {
                 "nose": 0.9890944650103043,
@@ -8307,9 +7521,7 @@
                 "leftKnee": 1.0174618471036334,
                 "rightKnee": 0.956045244507942,
                 "leftAnkle": 0.800903237562808,
-                "rightAnkle": 1.0525881274391007,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0525881274391007
             },
             {
                 "nose": 1.014553392957721,
@@ -8328,9 +7540,7 @@
                 "leftKnee": 1.0223011010433847,
                 "rightKnee": 1.0876545658902284,
                 "leftAnkle": 1.1021127966906428,
-                "rightAnkle": 0.9650191487480104,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9650191487480104
             },
             {
                 "nose": 1.0115125386076071,
@@ -8349,9 +7559,7 @@
                 "leftKnee": 0.9556790880409146,
                 "rightKnee": 0.9106259049102949,
                 "leftAnkle": 0.6648225036246956,
-                "rightAnkle": 1.0105106975811062,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0105106975811062
             },
             {
                 "nose": 1.0039535333044123,
@@ -8370,9 +7578,7 @@
                 "leftKnee": 1.1189932084437937,
                 "rightKnee": 1.0853726035415734,
                 "leftAnkle": 0.9924737345023649,
-                "rightAnkle": 0.9267356377706238,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9267356377706238
             },
             {
                 "nose": 0.9997372204290756,
@@ -8391,9 +7597,7 @@
                 "leftKnee": 0.9566543613139574,
                 "rightKnee": 0.9685309676881539,
                 "leftAnkle": 1.287538739661624,
-                "rightAnkle": 1.0394591045879922,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0394591045879922
             },
             {
                 "nose": 1.0098853594475075,
@@ -8412,9 +7616,7 @@
                 "leftKnee": 1.0736600255216162,
                 "rightKnee": 1.016895826947941,
                 "leftAnkle": 0.9473694827441377,
-                "rightAnkle": 0.9605766559921658,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9605766559921658
             },
             {
                 "nose": 0.9934743926794118,
@@ -8433,9 +7635,7 @@
                 "leftKnee": 0.9211151274034192,
                 "rightKnee": 1.013831512841459,
                 "leftAnkle": 1.0731134960135482,
-                "rightAnkle": 0.9248726383474017,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9248726383474017
             },
             {
                 "nose": 1.0000886090423928,
@@ -8454,9 +7654,7 @@
                 "leftKnee": 0.9823029881306806,
                 "rightKnee": 0.9839349346726554,
                 "leftAnkle": 1.337070563463927,
-                "rightAnkle": 1.0993199589458085,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0993199589458085
             },
             {
                 "nose": 0.9953375946417172,
@@ -8475,9 +7673,7 @@
                 "leftKnee": 0.8929335518101245,
                 "rightKnee": 0.8615684388987043,
                 "leftAnkle": 1.1095602783423275,
-                "rightAnkle": 0.9867371362849916,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9867371362849916
             },
             {
                 "nose": 0.9835024929957614,
@@ -8496,9 +7692,7 @@
                 "leftKnee": 1.127904950122153,
                 "rightKnee": 1.1805516672842977,
                 "leftAnkle": 0.7278652260638507,
-                "rightAnkle": 0.8687866849398747,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.8687866849398747
             },
             {
                 "nose": 1.0024442601653356,
@@ -8517,9 +7711,7 @@
                 "leftKnee": 0.9777204278921148,
                 "rightKnee": 0.9295288128510447,
                 "leftAnkle": 0.964153517044866,
-                "rightAnkle": 1.0974490315328367,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0974490315328367
             },
             {
                 "nose": 0.9981201006298631,
@@ -8538,9 +7730,7 @@
                 "leftKnee": 1.0118001006409045,
                 "rightKnee": 0.9302628158376294,
                 "leftAnkle": 1.0748725862976,
-                "rightAnkle": 1.0210032649540333,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0210032649540333
             },
             {
                 "nose": 1.0225258139267757,
@@ -8559,9 +7749,7 @@
                 "leftKnee": 1.0297874135862037,
                 "rightKnee": 0.9235822248874044,
                 "leftAnkle": 0.8217027061686218,
-                "rightAnkle": 1.0688170484918287,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0688170484918287
             },
             {
                 "nose": 0.9883299740588003,
@@ -8580,9 +7768,7 @@
                 "leftKnee": 0.9197128190554311,
                 "rightKnee": 0.8473695347649408,
                 "leftAnkle": 1.3564849407581296,
-                "rightAnkle": 1.0369073914275855,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0369073914275855
             },
             {
                 "nose": 0.994039533809332,
@@ -8601,9 +7787,7 @@
                 "leftKnee": 1.0243988785970668,
                 "rightKnee": 1.1256066856739586,
                 "leftAnkle": 1.0305402616869972,
-                "rightAnkle": 0.939993960844073,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.939993960844073
             },
             {
                 "nose": 0.9944556044338237,
@@ -8622,9 +7806,7 @@
                 "leftKnee": 0.9612841530813063,
                 "rightKnee": 1.090936971634833,
                 "leftAnkle": 0.9985658941999712,
-                "rightAnkle": 0.9912218072154357,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9912218072154357
             },
             {
                 "nose": 0.9931514928409529,
@@ -8643,9 +7825,7 @@
                 "leftKnee": 0.986543673144088,
                 "rightKnee": 1.0808165163924683,
                 "leftAnkle": 0.9652318553351813,
-                "rightAnkle": 0.9667992734189217,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9667992734189217
             },
             {
                 "nose": 0.9977021025395156,
@@ -8664,9 +7844,7 @@
                 "leftKnee": 0.9613122373922683,
                 "rightKnee": 0.9632465720601561,
                 "leftAnkle": 1.2354005477843955,
-                "rightAnkle": 1.05630860648398,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.05630860648398
             },
             {
                 "nose": 0.9995691543887383,
@@ -8685,9 +7863,7 @@
                 "leftKnee": 1.0664535555230774,
                 "rightKnee": 1.0391550884639262,
                 "leftAnkle": 0.8918526352347013,
-                "rightAnkle": 0.9776041348514073,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9776041348514073
             },
             {
                 "nose": 1.0065115010177887,
@@ -8706,9 +7882,7 @@
                 "leftKnee": 0.9922377584692602,
                 "rightKnee": 0.8648613327373924,
                 "leftAnkle": 1.107255203801621,
-                "rightAnkle": 1.0812740303961839,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0812740303961839
             },
             {
                 "nose": 0.9945445092029901,
@@ -8727,9 +7901,7 @@
                 "leftKnee": 0.9858095606107158,
                 "rightKnee": 0.8409938266754529,
                 "leftAnkle": 1.0831615334290088,
-                "rightAnkle": 1.055555788513102,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.055555788513102
             },
             {
                 "nose": 1.0007391976740527,
@@ -8748,9 +7920,7 @@
                 "leftKnee": 1.0031456495964048,
                 "rightKnee": 0.9994804264515925,
                 "leftAnkle": 0.9762120710774285,
-                "rightAnkle": 1.0036261826525945,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0036261826525945
             },
             {
                 "nose": 1.0121442272834364,
@@ -8769,9 +7939,7 @@
                 "leftKnee": 0.9809513002143937,
                 "rightKnee": 1.018694895824533,
                 "leftAnkle": 1.0234653475065674,
-                "rightAnkle": 0.986889748337347,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.986889748337347
             },
             {
                 "nose": 1.0023128268862065,
@@ -8790,9 +7958,7 @@
                 "leftKnee": 0.9463250993794253,
                 "rightKnee": 0.9039349846776552,
                 "leftAnkle": 1.0295890454239371,
-                "rightAnkle": 1.002183988189292,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.002183988189292
             },
             {
                 "nose": 1.0022689899543533,
@@ -8811,9 +7977,7 @@
                 "leftKnee": 1.0154553066201462,
                 "rightKnee": 0.920909686651772,
                 "leftAnkle": 0.9748546694419944,
-                "rightAnkle": 1.0100382093530371,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0100382093530371
             },
             {
                 "nose": 0.9999313337167683,
@@ -8832,9 +7996,7 @@
                 "leftKnee": 0.9405858867430356,
                 "rightKnee": 0.953332777434663,
                 "leftAnkle": 0.9715711712846048,
-                "rightAnkle": 1.0527276831356478,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0527276831356478
             },
             {
                 "nose": 1.0009812922498476,
@@ -8853,9 +8015,7 @@
                 "leftKnee": 1.023568029576811,
                 "rightKnee": 1.2838996179635667,
                 "leftAnkle": 1.0657880653472007,
-                "rightAnkle": 0.9336783715650799,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9336783715650799
             },
             {
                 "nose": 0.9943960075719398,
@@ -8874,9 +8034,7 @@
                 "leftKnee": 1.033683082193053,
                 "rightKnee": 1.0143020776622023,
                 "leftAnkle": 1.133490198079516,
-                "rightAnkle": 1.0115467229717423,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0115467229717423
             },
             {
                 "nose": 0.9926984425559713,
@@ -8895,9 +8053,7 @@
                 "leftKnee": 0.966096293298984,
                 "rightKnee": 0.953177921904576,
                 "leftAnkle": 1.0609086052441845,
-                "rightAnkle": 1.012940477167487,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.012940477167487
             },
             {
                 "nose": 1.0003007333701497,
@@ -8916,9 +8072,7 @@
                 "leftKnee": 0.955699698359579,
                 "rightKnee": 0.7816005400681396,
                 "leftAnkle": 1.0770745113422948,
-                "rightAnkle": 1.020942362031401,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.020942362031401
             },
             {
                 "nose": 0.9987446537121516,
@@ -8937,9 +8091,7 @@
                 "leftKnee": 1.0635535333662165,
                 "rightKnee": 1.3142574783916843,
                 "leftAnkle": 1.3953936438269803,
-                "rightAnkle": 0.9500396972914448,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9500396972914448
             },
             {
                 "nose": 0.9985858887813324,
@@ -8958,9 +8110,7 @@
                 "leftKnee": 0.9465672554402359,
                 "rightKnee": 0.9452895851542275,
                 "leftAnkle": 0.6414452451658116,
-                "rightAnkle": 1.0693395720589796,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0693395720589796
             },
             {
                 "nose": 1.0033771119796717,
@@ -8979,9 +8129,7 @@
                 "leftKnee": 0.9498535733239427,
                 "rightKnee": 0.9141893915493774,
                 "leftAnkle": 1.0433390780068303,
-                "rightAnkle": 1.0101662432361862,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0101662432361862
             },
             {
                 "nose": 0.9947189495589271,
@@ -9000,9 +8148,7 @@
                 "leftKnee": 1.0320053656011032,
                 "rightKnee": 0.8742672611543795,
                 "leftAnkle": 1.1028024737041562,
-                "rightAnkle": 1.073080108490735,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.073080108490735
             },
             {
                 "nose": 0.9998558765871789,
@@ -9021,9 +8167,7 @@
                 "leftKnee": 0.9966242652635346,
                 "rightKnee": 0.8270557543501542,
                 "leftAnkle": 0.9688539858006002,
-                "rightAnkle": 1.0174257349088132,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 1.0174257349088132
             },
             {
                 "nose": 0.9965545774495781,
@@ -9042,9 +8186,7 @@
                 "leftKnee": 1.0436290127811556,
                 "rightKnee": 1.5539023894439643,
                 "leftAnkle": 1.0233441313504847,
-                "rightAnkle": 0.9897489435642954,
-                "score": null,
-                "keypoints": null
+                "rightAnkle": 0.9897489435642954
             }
         ]
     }
