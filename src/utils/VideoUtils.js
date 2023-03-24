@@ -40,7 +40,6 @@ export default class VideoUtils {
 
 
     processFile() {
-        //TODO reject promise if video processing failed
 
         return new Promise((resolve, reject) => {
 
@@ -83,7 +82,11 @@ export default class VideoUtils {
                 }
             } catch (e) {
 
-                if (!this._videoObjectReady) setTimeout(() => this.processFile(), 1000)
+                if (!this._videoObjectReady) {
+                    setTimeout(() => this.processFile(), 1000)
+                } else {
+                    reject(new Error('Video processing failed: ' + e.message))
+                }
 
             } 
 
@@ -94,6 +97,11 @@ export default class VideoUtils {
                 resolve()
 
                 console.log(this._videoPoses)
+                console.log(this._videoPoses[0])
+
+                let avgNose01 = (this._videoPoses[0].nose + this._videoPoses[1].nose) / 2;
+                console.log(avgNose01); 
+
                 this.analyzeFile()
 
             })
