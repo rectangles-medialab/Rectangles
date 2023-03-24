@@ -1,6 +1,7 @@
 import ml5 from 'ml5';
 
 export default class VideoUtils {
+    _file
     _fileUrl
     _fileTypes = ['video/mp4', 'video/webm', 'video/ogg', 'video/quicktime']
     _videoObject
@@ -8,7 +9,7 @@ export default class VideoUtils {
     _videoPoses = []
 
 
-    getFileUrl() {return this._fileUrl}
+    getFileUrl() { return this._fileUrl }
 
 
     upload(e) {
@@ -17,13 +18,14 @@ export default class VideoUtils {
 
             this._videoObject = document.createElement('video')
             const file = e.target.files[0]
+            this._file = file
             const fileUrl = URL.createObjectURL(file)
             this._videoObject.src = fileUrl.toString()
             this._videoObject.width = 500
             this._videoObject.height = 300
             this._videoObject.addEventListener('canplay', () => this._videoObjectReady = true)
 
-            if(this._fileTypes.indexOf(file.type) === -1) { 
+            if (this._fileTypes.indexOf(file.type) === -1) {
 
                 reject()
 
@@ -66,13 +68,13 @@ export default class VideoUtils {
                     HTMLvideo.playbackRate = 0.5
                     HTMLvideo.play()
                     HTMLvideo.muted = true
-        
+
                     //only track pose if video is playing
                     poseNet.on('pose', (results) => {
                         if (videoPlaying) {
 
                             this._videoPoses.push(results[0].pose)
-                            
+
                         }
                     })
 
@@ -85,7 +87,7 @@ export default class VideoUtils {
 
                 if (!this._videoObjectReady) setTimeout(() => this.processFile(), 1000)
 
-            } 
+            }
 
             //stop video tracking if video has ended
             this._videoObject.addEventListener('ended', () => {
@@ -93,7 +95,6 @@ export default class VideoUtils {
                 videoPlaying = false
                 resolve()
 
-                console.log(this._videoPoses)
                 this.analyzeFile()
 
             })
@@ -103,39 +104,55 @@ export default class VideoUtils {
 
     analyzeFile() {
 
-        let co = []
+        let results = []
 
         for (let i = 1; i < this._videoPoses.length; i++) {
-            
-            co.push({i: i, co: this.calculateCoefficient(
-                this._videoPoses[i].rightWrist.x,
-                this._videoPoses[i-1].rightWrist.x,
-                this._videoPoses[i].rightWrist.y,
-                this._videoPoses[i-1].rightWrist.y
-                )})
-            
-        }
 
-        const canvas = document.getElementById('canvas')
-        const ctx = canvas.getContext('2d')
-
-        ctx.strokeStyle = 'blue'
-        ctx.lineWidth = 2
-
-        ctx.beginPath()
-        ctx.moveTo(0, 0 + (canvas.clientHeight / 2))
-        for (const c of co) {
-            ctx.lineTo(
-                (c.i * 5), 
-                (c.co * 5) + (canvas.clientHeight / 2)
+            let obj = {
+                "nose": {},
+                "leftEye": {},
+                "rightEye": {},
+                "leftEar": {},
+                "rightEar": {},
+                "leftShoulder": {},
+                "rightShoulder": {},
+                "leftElbow": {},
+                "rightElbow": {},
+                "leftWrist": {},
+                "rightWrist": {},
+                "leftHip": {},
+                "rightHip": {},
+                "leftKnee": {},
+                "rightKnee": {},
+                "leftAnkle": {},
+                "rightAnkle": {}
+            }
+            for (const [key, value] of Object.entries(this._videoPoses[i])) {
+                obj[key] = this.calculateCoefficient(
+                    this._videoPoses[i][key].x,
+                    this._videoPoses[i - 1][key].x,
+                    this._videoPoses[i][key].y,
+                    this._videoPoses[i - 1][key].y
                 )
+            }
+
+            results.push(obj)
+
         }
-        ctx.stroke()
+
+
+        let thing = {
+            name: this._file.name.split(".")[0],
+            frames: results
+
+        }
+
+        console.log(thing)
 
     }
 
     calculateCoefficient(x1, y1, x2, y2) {
-        return ( x2 - x1 ) / ( y2 - y1 )
+        return (x2 - x1) / (y2 - y1)
     }
 
 
