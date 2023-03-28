@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../App.css';
 import StartProcessor from "./StartProcessor";
 import downloadImage from '../images/download.png';
-import FeedbackCard from './FeedbackCard';
+import FeedbackList from './FeedbackList';
 
 export default function UploadPitch() {
     const [videoUrl, setVideoUrl] = useState('');
@@ -55,7 +55,7 @@ export default function UploadPitch() {
 
                 </div>
 
-                {showNextSection && <FeedbackCard />}
+                {showNextSection && <FeedbackList />}
             </div>
         </div>
     );
