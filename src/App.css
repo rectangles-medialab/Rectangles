@@ -185,3 +185,11 @@
   margin-bottom: 50px;
   margin-top: 35px;
 }
+
+.positive {
+  background-color: green;
+}
+
+.negative {
+  background-color: #FF6D00;
+}
