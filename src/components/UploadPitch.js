@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import '../App.css';
 import StartProcessor from "./StartProcessor";
 import downloadImage from '../images/download.png';
+import onePerson from '../images/een_persoon_in_beeld.png';
+import soundEnvironment from '../images/omgevingsgeluid.png';
+import fitOnScreen from '../images/volledig_in_beeld.png';
 import FeedbackList from './FeedbackList';
 
 export default function UploadPitch() {
@@ -21,8 +24,29 @@ export default function UploadPitch() {
         <div className="container">
             <div className="app-container">
                 <div class="header">
-                <h1>Weet je niet zeker of jouw pitch goed overkomt bij het publiek?</h1>
-                <p>Laat het checken door PitchBack! Dit is een tool die jou helpt feedback te geven over de pitch die je houdt. Hierbij geeft de tool feedback op jouw postuur en spraak.</p>
+                <h1>Breng jouw pitch naar het volgende niveau!</h1>
+                    <div class="container">
+                        <img src={onePerson} alt="one Person" class="animated-image" />
+                        <div class="text">
+                            <h2><span>1.</span> Pitch opnemen</h2>
+                            <p>Voordat je de pitch upload moet het eerst opgenomen worden. Let hierop bij de audio en video.</p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src={fitOnScreen} alt="one Person" class="animated-image" />
+                            <div class="text">
+                                <h2><span>2.</span> Upload jouw Pitch</h2>
+                                <p>Nu jouw pitch opgenomen is kan je jouw video uploaden. Zorg ervoor dat er 1 iemand in beeld staat</p>
+                            </div>
+                    </div>
+
+                    <div class="container">
+                        <img src={soundEnvironment} alt="one Person" class="animated-image" />
+                        <div class="text">
+                            <h2><span>3.</span> Implementeer de feedback</h2>
+                            <p>Implementeer deze feedback in jouw volgende video en upload deze opnieuw, zo vaak als je wilt.</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="upload-video-container">
                     <div className="upload-container">

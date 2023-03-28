@@ -191,5 +191,65 @@
 }
 
 .negative {
-  background-color: #FF6D00;
+  background-color: var(--primarycolor);
+}
+
+.header p, h2 {
+  text-align: left;
+}
+
+.header p {
+  margin-top: 0px;
+}
+
+.header h2 {
+  margin-bottom: 0px;
+  margin-top: 35px;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.upload-container p {
+  margin-bottom: 0;
+  margin-top: 25px
+}
+
+.header img {
+  width: 15%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  /* dit zorgt ervoor dat de tekst verticaal gecentreerd is */
+}
+
+img {
+  max-width: 100%;
+  /* zorgt ervoor dat de afbeelding binnen de container past */
+}
+
+.text {
+  margin-left: 20px;
+  /* voegt een kleine marge toe tussen de afbeelding en de tekst */
+}
+
+span {
+  color: var(--primarycolor)
+}
+
+.animated-image {
+  transition: transform 0.5s ease-out;
+  /* apply the transition to the image */
+}
+
+.animated-image:hover {
+  transform: scale(1.2);
+  /* scale up the image on hover */
+}
+
+.text {
+  margin-left: 20px;
 }
