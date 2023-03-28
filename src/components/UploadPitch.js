@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../App.css';
 import StartProcessor from "./StartProcessor";
 import downloadImage from '../images/download.png';
+import FeedbackCard from './FeedbackCard';
 
 export default function UploadPitch() {
     const [videoUrl, setVideoUrl] = useState('');
@@ -33,6 +34,7 @@ export default function UploadPitch() {
                     </div>
 
                     {videoUrl && (
+                    
                         <div className="main-container">
                             <div className="video-container">
                                 <div>
@@ -48,11 +50,12 @@ export default function UploadPitch() {
                                 <button className="next-button" onClick={handleNextSection}>PitchBack Check</button>
                             </div>
                         </div>
+                    
                     )}
 
                 </div>
 
-                {showNextSection && <StartProcessor />}
+                {showNextSection && <FeedbackCard />}
             </div>
         </div>
     );

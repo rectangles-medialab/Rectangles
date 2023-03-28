@@ -91,7 +91,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .header {
@@ -146,11 +146,11 @@ code {
     background-color: #FF6D00;
     color: #fff;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     cursor: pointer;
     margin-top: 20px;
-    width: 280px;
-    height: 75px;
+    width: 235px;
+    height: 65px;
     font-size: 20px;
 }
 
