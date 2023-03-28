@@ -1,65 +1,95 @@
-import React, { useState } from 'react';
-import ml5 from 'ml5';
+import { useState } from 'react';
+import VideoToAudio from 'video-to-audio'
+// import { createFFmpeg, fetchFile } from '@ffmpeg/ffmpeg';
+// const ffmpeg = createFFmpeg({ log: true });
 
-function App() {
-  const [videoFile, setVideoFile] = useState(null);
-  
-  const handleVideoUpload = (event) => {
-    // TODO: handle the video upload and conversion
-    const file = event.target.files[0];
-  
-    // Check if the file is an MP4 video
-    if (file.type !== 'video/mp4') {
-      alert('Please upload an MP4 video file.');
-      return;
-    }
-    // Create a new FileReader to read the contents of the video file
-    const reader = new FileReader();
-  
-    // Set up the callback function for when the reader is done reading the file
-    reader.onloadend = () => {
-      // Create a new AudioContext to convert the video to an audio file
-      const audioContext = new AudioContext();
-      const audioSrc = audioContext.createMediaElementSource(new Audio(reader.result));
-      const recorder = new Recorder(audioSrc);
-  
-      // Start recording the audio
-      recorder.record();
-  
-      // Set a timeout to stop recording after the video length
-      setTimeout(() => {
-        recorder.stop();
-        recorder.exportWAV((blob) => {
-          // TODO: Pass the audio file to the function that listens for "uh" sounds
-        });
-      }, new Audio(reader.result).duration * 1000);
-    };
-  
-    // Read the contents of the video file
-    reader.readAsDataURL(file);
-  };
 
-  const listenForUhSounds = (audioFile) => {
-    const soundClassifier = ml5.soundClassifier('your-trained-model');
+function AudioInput() {
+//TODO: Upload file as mp4const [audioSrc, setAudioSrc] = useState('');
+const [audioSrc, setAudioSrc] = useState('');
 
-    soundClassifier.classify(audioFile, (error, result) => {
-      if (error) {
-        console.error(error);
-        return;
-      }
+  async function convertToAudio(input) {
+    let sourceVideoFile = input.files[0];
+    let targetAudioFormat = 'mp3';
+    let convertedAudioDataObj = await VideoToAudio.convert(sourceVideoFile, targetAudioFormat);
+    let audioUrl = URL.createObjectURL(convertedAudioDataObj.blob);
+    setAudioSrc(audioUrl);
+  }
 
-      const uhCount = result.filter((classification) => classification.label === 'uh').length;
-
-      if (uhCount >= 5) {
-        // TODO: trigger the desired functionality
-      }
-    });
+  function handleFileInputChange(event) {
+    convertToAudio(event.target);
   }
 
   return (
     <div>
-      <input type="file" accept="video/mp4" onChange={handleVideoUpload} />
-    </div>
-  );
+    <input type="file" accept="video/*" onChange={handleFileInputChange} />
+    {audioSrc && (
+      <audio controls src={audioSrc}>
+        Your browser does not support the audio element.
+      </audio>
+    )}
+  </div>
+);
 }
+ 
+  
+
+//TODO: MP4 gets automatically converted to MP3
+//TODO: MP3 will be analysed with ML5 (js)
+//TODO: The analyser gives feedback on amounts of "uh" you're saying
+
+//   const videoRef = useRef(null);
+//   const canvasRef = useRef(null);
+//   const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+//   const audioNodeRef = useRef(null);
+//   const analyserNodeRef = useRef(null);
+
+//   useEffect(() => {
+//     new p5((p) => {
+//       p.setup = () => {
+//         p.createCanvas(640, 480).parent(canvasRef.current);
+//         videoRef.current = p.createCapture(p.VIDEO, () => {
+//           videoRef.current.hide();
+//           audioNodeRef.current = audioContext.createMediaElementSource(videoRef.current.elt);
+//           analyserNodeRef.current = audioContext.createAnalyser();
+//           audioNodeRef.current.connect(analyserNodeRef.current);
+//           analyserNodeRef.current.connect(audioContext.destination);
+//         });
+//       };
+  
+//       p.draw = () => {
+//         p.image(videoRef.current, 0, 0, 640, 480);
+//       };
+//     });
+//   }, []);
+
+//   const classifier = ml5.soundClassifier('SpeechCommands18w', () => {});
+
+//   useEffect(() => {
+//     const classifyAudio = () => {
+//       const bufferLength = analyserNodeRef.current.frequencyBinCount;
+//       const dataArray = new Uint8Array(bufferLength);
+//       analyserNodeRef.current.getByteFrequencyData(dataArray);
+//       classifier.classify(dataArray, (err, results) => {
+//         if (err) {
+//           console.error(err);
+//         } else {
+//           setClassification(results[0].label);
+//         }
+//       });
+//     };
+//     setInterval(classifyAudio, 1000); // classify audio every second
+//   }, []);
+
+
+// return (
+//   <div>
+//       <canvas ref={canvasRef} />
+//       <p>Current classification: {classification}</p>
+//     </div>
+// );
+
+export default AudioInput;
+
 
