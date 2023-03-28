@@ -29,22 +29,22 @@ export default function UploadPitch() {
                         <img src={onePerson} alt="one Person" class="animated-image" />
                         <div class="text">
                             <h2><span>1.</span> Pitch opnemen</h2>
-                            <p>Voordat je de pitch upload moet het eerst opgenomen worden. Let hierop bij de audio en video.</p>
+                            <p>Voordat je de pitch upload moet het eerst opgenomen worden. Zorg ervoor dat alleen jij op beeld staat.</p>
                         </div>
                     </div>
                     <div class="container">
                         <img src={fitOnScreen} alt="one Person" class="animated-image" />
                             <div class="text">
-                                <h2><span>2.</span> Upload jouw Pitch</h2>
-                                <p>Nu jouw pitch opgenomen is kan je jouw video uploaden. Zorg ervoor dat er 1 iemand in beeld staat</p>
+                                <h2><span>2.</span> Ruimte opname</h2>
+                                <p>Zorg ervoor dat jij zelf volledig in beeld staat en niet in een donkere of overbelichte ruimte.</p>
                             </div>
                     </div>
 
                     <div class="container">
                         <img src={soundEnvironment} alt="one Person" class="animated-image" />
                         <div class="text">
-                            <h2><span>3.</span> Implementeer de feedback</h2>
-                            <p>Implementeer deze feedback in jouw volgende video en upload deze opnieuw, zo vaak als je wilt.</p>
+                            <h2><span>3.</span> Omgevingsgeluid</h2>
+                            <p>Zorg ervoor dat je jouw pitch opneemt in een ruimte met niet te veel achtergrond geluid.</p>
                         </div>
                     </div>
                 </div>
