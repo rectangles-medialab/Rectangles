@@ -105,7 +105,7 @@ export default function UploadPitch() {
                 ) : (
 
                     // feedback
-                    <FeedbackList />
+                    <FeedbackList feedback={videoUtils.getClassification()}/>
 
                 )}
 

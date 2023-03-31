@@ -9,8 +9,11 @@ export default class VideoUtils {
     _videoPoses = []
     _videoResults = []
     _videoResultsAvarage = []
+    _classification = undefined
 
     getFileUrl() { return this._fileUrl }
+
+    getClassification() { return this._classification }
 
 
     upload(e) {
@@ -96,39 +99,43 @@ export default class VideoUtils {
                 videoPlaying = false
 
 
-                //TODO call classify before resolving
-                // this.classify()
-                resolve()
-
                 this.analyzeFile()
 
                 await this.classify(this._videoResultsAvarage)
-                console.log(await this._videoResults.length)
 
-                const values = []
+                //TODO make this functionality NOT with settimeout
+                setTimeout(() => {
 
-                for(const videoResult of this._videoResults) {
-                    console.log(videoResult)
-                    for(const d of videoResult) {
-                        console.log(d)
-                        values.push(d)
+                    let wave = []
+                    let normal = []
+
+                    for (const videoResult of this._videoResults) {
+                        for (const d of videoResult) {
+                            // console.log(d)
+                            // values.push(d)
+                            if (d.wave !== undefined) {
+                                wave.push(d.wave)
+                            } else {
+                                normal.push(d.normal)
+                            }
+                        }
                     }
-                }
 
-                console.log(values)
-                
+                    let waveAverage = wave.reduce((partialSum, a) => partialSum + a, 0) / wave.length
+                    let normalAverage = normal.reduce((partialSum, a) => partialSum + a, 0) / normal.length
 
-                // for (const result of this._videoResults) {
-                //     console.log(this.classify(result))
-                //     waveValues.push(await this.classify(result))
-                //     normalValues.push(await this.classify(result))
-                // }
+                    let classification = Math.max(waveAverage, normalAverage)
 
-                // console.log(normalValues)
-                // console.log(waveValues)
-                // for(const c of classifiedResults) {
+                    if(classification == waveAverage) {
+                        this._classification = "wave"
+                    } else {
+                        this._classification = "normal"
+                    }
 
-                // }
+                    resolve()
+
+
+                }, 1000)
 
             })
 
@@ -142,24 +149,24 @@ export default class VideoUtils {
                 task: 'classification' // or 'regression'
             }
             const nn = ml5.neuralNetwork(options);
-    
+
             const modelDetails = {
                 model: 'https://vishaal010.github.io/jsonAPI/model/model.json',
                 metadata: 'https://vishaal010.github.io/jsonAPI/model/model_meta.json',
                 weights: 'https://vishaal010.github.io/jsonAPI/model/model.weights.bin'
-              }
-    
+            }
+
             const modelLoaded = () => {
-                for(const input of inputArray) {
+                for (const input of inputArray) {
                     nn.classify(input, classified)
                 }
                 resolve()
             }
-    
+
             const classified = (error, result) => {
                 this._videoResults.push(result)
             }
-    
+
             // console.log(nn.load(modelDetails, modelLoaded))
             nn.load(modelDetails, modelLoaded)
         })
@@ -171,10 +178,10 @@ export default class VideoUtils {
         const ngramSize = 20;
 
         for (let i = 0; i < video.frames.length; i += ngramSize) {
-          if (i + ngramSize <= video.frames.length) {
-            const ngram = video.frames.slice(i, i + ngramSize);
-            ngrams.push(ngram);
-          }
+            if (i + ngramSize <= video.frames.length) {
+                const ngram = video.frames.slice(i, i + ngramSize);
+                ngrams.push(ngram);
+            }
         }
 
         for (let i = 0; i < ngrams.length; i++) {
@@ -183,23 +190,23 @@ export default class VideoUtils {
             const avgKeypoints = {};
 
             for (let j = 0; j < ngram.length; j++) {
-              const frame = ngram[j];
+                const frame = ngram[j];
 
-              for (const keypoint in frame) {
-                if (avgKeypoints[keypoint] === undefined) {
-                  avgKeypoints[keypoint] = 0;
+                for (const keypoint in frame) {
+                    if (avgKeypoints[keypoint] === undefined) {
+                        avgKeypoints[keypoint] = 0;
+                    }
+
+                    avgKeypoints[keypoint] += frame[keypoint];
                 }
-
-                avgKeypoints[keypoint] += frame[keypoint];
-              }
             }
 
             for (const keypoint in avgKeypoints) {
-              avgKeypoints[keypoint] /= ngram.length;
+                avgKeypoints[keypoint] /= ngram.length;
             }
 
             this._videoResultsAvarage.push(avgKeypoints)
-          }
+        }
 
 
     }
