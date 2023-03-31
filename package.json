@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "audio-buffer-utils": "^5.1.2",
     "ffmpeg.js": "^4.2.9003",
     "ml5": "^0.12.2",
     "opus-recorder": "^8.0.5",
