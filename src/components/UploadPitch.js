@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import VideoUtils from '../utils/VideoUtils'
 import '../App.css';
-import FeedbackList from "./FeedbackList";
-import downloadImage from '../assets/download.png';
+import downloadImage from '../images/download.png';
+import onePerson from '../images/een_persoon_in_beeld.png';
+import soundEnvironment from '../images/omgevingsgeluid.png';
+import fitOnScreen from '../images/volledig_in_beeld.png';
+import FeedbackList from './FeedbackList';
 
 const videoUtils = new VideoUtils()
 
@@ -109,6 +112,7 @@ export default function UploadPitch() {
 
                 )}
 
+            {/* {videoProcessed && <FeedbackList feedback={videoUtils.getClassification()}/>} */}
         </div>
     );
 }
