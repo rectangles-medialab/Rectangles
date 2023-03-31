@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import VideoUtils from '../utils/VideoUtils'
 import '../App.css';
-import FeedbackList from "./FeedbackList";
-import downloadImage from '../assets/download.png';
+import StartProcessor from "./StartProcessor";
+import downloadImage from '../images/download.png';
+import onePerson from '../images/een_persoon_in_beeld.png';
+import soundEnvironment from '../images/omgevingsgeluid.png';
+import fitOnScreen from '../images/volledig_in_beeld.png';
+import FeedbackList from './FeedbackList';
 
 const videoUtils = new VideoUtils()
 
@@ -13,7 +17,7 @@ export default function UploadPitch() {
     const [videoProcessed, setVideoProcessed] = useState(false)
     const [processError, setProcessError] = useState(false)
 
-    
+
     const handleFileUpload = async (e) => {
 
         await videoUtils.upload(e)
@@ -40,27 +44,74 @@ export default function UploadPitch() {
             .catch(() => setProcessError(true))
     }
 
-    
+
     //components used in return 
 
     const uploadFieldComponent = () => {
         return (
-            <div className="upload-container">
+            <div>
+                <div className="header">
+                    <h1>Breng jouw pitch naar het volgende niveau!</h1>
+                    <div className="container">
+                        <img src={onePerson} alt="one Person" className="animated-image" />
+                        <div className="text">
+                            <h2><span>1.</span> Pitch opnemen</h2>
+                            <p>Voordat je de pitch upload moet het eerst opgenomen worden. Zorg ervoor dat alleen jij op beeld staat.</p>
+                        </div>
+                    </div>
+                    <div className="container">
+                        <img src={fitOnScreen} alt="one Person" className="animated-image" />
+                        <div className="text">
+                            <h2><span>2.</span> Ruimte opname</h2>
+                            <p>Zorg ervoor dat jij zelf volledig in beeld staat en niet in een donkere of overbelichte ruimte.</p>
+                        </div>
+                    </div>
 
-                {!uploadError ? (
-                    <p>Upload jouw video</p>
-                ) : (
-                    <p>Zorg ervoor dat je geuploade bestand een video is</p> //error text if file is not a video
-                )}
+                    <div className="container">
+                        <img src={soundEnvironment} alt="one Person" className="animated-image" />
+                        <div className="text">
+                            <h2><span>3.</span> Omgevingsgeluid</h2>
+                            <p>Zorg ervoor dat je jouw pitch opneemt in een ruimte met niet te veel achtergrond geluid.</p>
+                        </div>
+                    </div>
+                </div>
 
-                <input type="file" onChange={handleFileUpload} id="actual-btn" hiddenid="actual-btn" hidden />
-                <label htmlFor="actual-btn">
-                    <img src={downloadImage} alt="Download Button" />
-                </label>
+                <div className="upload-video-container">
+                    <div className="upload-container">
+                        {!uploadError ? (
+                            <p>Upload jouw video</p>
+                        ) : (
+                            <p>Zorg ervoor dat je geuploade bestand een video is</p> //error text if file is not a video
+                        )}
+                        <input type="file" onChange={handleFileUpload} id="actual-btn" hiddenid="actual-btn" hidden />
+                        <label htmlFor="actual-btn">
+                            <img src={downloadImage} alt="Download Button" />
+                        </label>
+                    </div>
 
-                
+                    {videoUtils.getFileUrl() && (
 
+                        <div className="main-container">
+                            <div className="video-container">
+                                <div>
+                                    <video src={videoUtils.getFileUrl()} controls width="500" height="300" />
+                                </div>
+                                <div className="next-button-container">
+                                    <h1>Video is geupload!</h1>
+                                    <p>Bekijk jouw video nog een keer voordat we de video laten controleren door PitchBack.</p>
+                                    <p>Misschien zijn er nog een aantal dingen die je wilt toevoegen of verwijderen?</p>
+                                </div>
+                            </div>
+                            <div className="new-section">
+                                <button className="next-button" onClick={handleStartVideoProcessing}>PitchBack Check</button>
+                            </div>
+                        </div>
+
+                    )}
+
+                </div>
             </div>
+
         )
     }
 
@@ -86,7 +137,6 @@ export default function UploadPitch() {
 
     return (
         <div className="app-container">
-            <input id="model" type="file" multiple onChange={videoUtils.uploadModel}></input>
             <h1>Weet je niet zeker of jouw pitch goed overkomt bij het publiek?</h1>
             <p>Laat het checken door PitchBack! Dit is een tool die jou helpt feedback te geven over de pitch die je houdt. Hierbij geeft de tool feedback op jouw postuur en spraak.</p>
 
@@ -105,10 +155,11 @@ export default function UploadPitch() {
                 ) : (
 
                     // feedback
-                    <FeedbackList feedback={videoUtils.getClassification()}/>
+                    <FeedbackList feedback={videoUtils.getClassification()} />
 
                 )}
 
+            {videoProcessed && <FeedbackList />}
         </div>
     );
 }
