@@ -1,4 +1,5 @@
 import React from "react";
+import FeedbackCard from './FeedbackCard';
 
 function FeedbackList({ feedback }) {
 
@@ -12,6 +13,7 @@ function FeedbackList({ feedback }) {
                 text={feedback == "wave" ? "Probeer minder onverwachtse bewegingen te maken, dit kan er namelijk voor zorgen dat het publiek afgeleid raakt." : "Goed dat je geen onverwachte bewegingen maakt of wiebelt. Het publiek waardeerd een rustig persoon die niet al te nerveus lijkt."}
                 feedbackType={feedback == "wave" ? "negative" : "positive"} />
         </div>
+
     );
 }
 
