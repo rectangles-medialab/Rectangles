@@ -58,6 +58,8 @@ export default function UploadPitch() {
                     <img src={downloadImage} alt="Download Button" />
                 </label>
 
+                
+
             </div>
         )
     }
@@ -84,6 +86,7 @@ export default function UploadPitch() {
 
     return (
         <div className="app-container">
+            <input id="model" type="file" multiple onChange={videoUtils.uploadModel}></input>
             <h1>Weet je niet zeker of jouw pitch goed overkomt bij het publiek?</h1>
             <p>Laat het checken door PitchBack! Dit is een tool die jou helpt feedback te geven over de pitch die je houdt. Hierbij geeft de tool feedback op jouw postuur en spraak.</p>
 

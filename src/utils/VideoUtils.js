@@ -7,7 +7,8 @@ export default class VideoUtils {
     _videoObject
     _videoObjectReady = false
     _videoPoses = []
-
+    _videoResults = []
+    _videoResultsAvarage = []
 
     getFileUrl() { return this._fileUrl }
 
@@ -90,16 +91,117 @@ export default class VideoUtils {
             }
 
             //stop video tracking if video has ended
-            this._videoObject.addEventListener('ended', () => {
+            this._videoObject.addEventListener('ended', async () => {
 
                 videoPlaying = false
+
+
+                //TODO call classify before resolving
+                // this.classify()
                 resolve()
 
                 this.analyzeFile()
 
+                await this.classify(this._videoResultsAvarage)
+                console.log(await this._videoResults.length)
+
+                const values = []
+
+                for(const videoResult of this._videoResults) {
+                    console.log(videoResult)
+                    for(const d of videoResult) {
+                        console.log(d)
+                        values.push(d)
+                    }
+                }
+
+                console.log(values)
+                
+
+                // for (const result of this._videoResults) {
+                //     console.log(this.classify(result))
+                //     waveValues.push(await this.classify(result))
+                //     normalValues.push(await this.classify(result))
+                // }
+
+                // console.log(normalValues)
+                // console.log(waveValues)
+                // for(const c of classifiedResults) {
+
+                // }
+
             })
 
         })
+    }
+
+    classify(inputArray) {
+
+        return new Promise((resolve, reject) => {
+            const options = {
+                task: 'classification' // or 'regression'
+            }
+            const nn = ml5.neuralNetwork(options);
+    
+            const modelDetails = {
+                model: 'https://vishaal010.github.io/jsonAPI/model/model.json',
+                metadata: 'https://vishaal010.github.io/jsonAPI/model/model_meta.json',
+                weights: 'https://vishaal010.github.io/jsonAPI/model/model.weights.bin'
+              }
+    
+            const modelLoaded = () => {
+                for(const input of inputArray) {
+                    nn.classify(input, classified)
+                }
+                resolve()
+            }
+    
+            const classified = (error, result) => {
+                this._videoResults.push(result)
+            }
+    
+            // console.log(nn.load(modelDetails, modelLoaded))
+            nn.load(modelDetails, modelLoaded)
+        })
+
+    }
+
+    createNgram(video) {
+        let ngrams = [];
+        const ngramSize = 20;
+
+        for (let i = 0; i < video.frames.length; i += ngramSize) {
+          if (i + ngramSize <= video.frames.length) {
+            const ngram = video.frames.slice(i, i + ngramSize);
+            ngrams.push(ngram);
+          }
+        }
+
+        for (let i = 0; i < ngrams.length; i++) {
+            const ngram = ngrams[i];
+
+            const avgKeypoints = {};
+
+            for (let j = 0; j < ngram.length; j++) {
+              const frame = ngram[j];
+
+              for (const keypoint in frame) {
+                if (avgKeypoints[keypoint] === undefined) {
+                  avgKeypoints[keypoint] = 0;
+                }
+
+                avgKeypoints[keypoint] += frame[keypoint];
+              }
+            }
+
+            for (const keypoint in avgKeypoints) {
+              avgKeypoints[keypoint] /= ngram.length;
+            }
+
+            this._videoResultsAvarage.push(avgKeypoints)
+          }
+
+
     }
 
     analyzeFile() {
@@ -147,7 +249,7 @@ export default class VideoUtils {
 
         }
 
-        console.log(thing)
+        this.createNgram(thing)
 
     }
 
