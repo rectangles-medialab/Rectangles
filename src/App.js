@@ -8,17 +8,18 @@ import GuestureCheckerPage from './pages/GuestureCheckerPage'
 
 function App() {
   return (
-    <BrowserRouter>
+    <LandingPage />
+    // <BrowserRouter>
       
-      <Routes>
-        <Route exact path="/" element={<LandingPage />} />
-        <Route exact path="/login" element={<LoginPage />} />
-        <Route exact path="/register" element={<RegisterPage />} />
-        <Route exact path="/guesture" element={<GuestureCheckerPage />} />
-        //TODO about.js of iets anders voor meer informatie, geen prio
-      </Routes>
+      // {/* <Routes> */}
+      //   {/* <Route exact path="/" element={<LandingPage />} />
+      //   <Route exact path="/login" element={<LoginPage />} />
+      //   <Route exact path="/register" element={<RegisterPage />} />
+      //   <Route exact path="/guesture" element={<GuestureCheckerPage />} /> */}
+      //   //TODO about.js of iets anders voor meer informatie, geen prio
+      // {/* </Routes>
       
-    </BrowserRouter>
+    // </BrowserRouter> */}
   );
 }
 
