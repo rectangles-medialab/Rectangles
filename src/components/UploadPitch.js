@@ -14,7 +14,7 @@ export default function UploadPitch() {
     const [uploadError, setUploadError] = useState(false)
     const [processingBusy, setProcessingBusy] = useState(false)
     const [videoProcessed, setVideoProcessed] = useState(false)
-    const [processError, setProcessError] = useState(false)
+    const [, setProcessError] = useState(false)
 
 
     const handleFileUpload = async (e) => {
@@ -50,7 +50,6 @@ export default function UploadPitch() {
         return (
             <div>
                 <div className="header">
-                    <h1>Breng jouw pitch naar het volgende niveau!</h1>
                     <div className="container">
                         <img src={onePerson} alt="one Person" className="animated-image" />
                         <div className="text">
@@ -62,7 +61,7 @@ export default function UploadPitch() {
                         <img src={fitOnScreen} alt="one Person" className="animated-image" />
                         <div className="text">
                             <h2><span>2.</span> Ruimte opname</h2>
-                            <p>Zorg ervoor dat jij zelf volledig in beeld staat en niet in een donkere of overbelichte ruimte.</p>
+                            <p>Zorg ervoor dat je volledig in beeld bent. De ruimte moet niet te licht of donker zijn.</p>
                         </div>
                     </div>
 
@@ -80,7 +79,7 @@ export default function UploadPitch() {
                         {!uploadError ? (
                             <p>Upload jouw video</p>
                         ) : (
-                            <p>Zorg ervoor dat je geuploade bestand een video is</p> //error text if file is not a video
+                            <p style={{ color: "red" }}>Je bestand is geen video. Probeer het opnieuw</p> //error text if file is not a video
                         )}
                         <input type="file" onChange={handleFileUpload} id="actual-btn" hiddenid="actual-btn" hidden />
                         <label htmlFor="actual-btn">
@@ -136,12 +135,13 @@ export default function UploadPitch() {
 
     return (
         <div className="app-container">
-            <h1>Weet je niet zeker of jouw pitch goed overkomt bij het publiek?</h1>
+            <h1>Breng jouw pitch naar een hoger niveau!</h1>
+
             <p>Laat het checken door PitchBack! Dit is een tool die jou helpt feedback te geven over de pitch die je houdt. Hierbij geeft de tool feedback op jouw postuur en spraak.</p>
 
-            {videoProcessed == false ?
+            {videoProcessed === false ?
 
-                videoUploaded == false ? (
+                videoUploaded === false ? (
 
                     // upload video
                     uploadFieldComponent()
