@@ -1,38 +1,40 @@
 import React, { useState, useEffect } from 'react';
 import * as tf from '@tensorflow/tfjs';
-import * as speechCommands from '@tensorflow-models/speech-commands';
+import * as speechCommands from '@tensorflow-models/speech-commands/dist/browser_fft';
 
 function VideoInput() {
+   // Defining the state variables to be used by the component
   const [model, setModel] = useState(null);
   const [metadata, setMetadata] = useState(null);
   const [videoSrc, setVideoSrc] = useState(null);
   const [prediction, setPrediction] = useState(null);
 
+   // Function to handle file input change event
   const handleFileChange = async (event) => {
     const file = event.target.files[0];
     const videoUrl = URL.createObjectURL(file);
     setVideoSrc(videoUrl);
   };
 
+   // Function to handle video play event
   const handleVideoPlay = async () => {
     const videoElement = document.getElementById('video');
-    const speechModel = await speechCommands.create('BROWSER_FFT');
-  
+
     const audioData = await extractAudioData(videoElement);
     const spectrogram = tf.tidy(() => {
       const waveform = tf.tensor(audioData);
-      const pad = tf.zeros([speechModel.modelInputShape[0] - waveform.shape[0] % speechModel.modelInputShape[0]]);
+      const pad = tf.zeros([model.modelInputShape[0] - waveform.shape[0] % model.modelInputShape[0]]);
       const padded = tf.concat([waveform, pad], 0);
-      const framed = tf.signal.frame(padded, speechModel.modelInputShape[0], speechModel.modelInputShape[0] / 2).transpose();
-      const windowed = framed.mul(tf.signal.hammingWindow(speechModel.modelInputShape[0]));
+      const framed = tf.signal.frame(padded, model.modelInputShape[0], model.modelInputShape[0] / 2).transpose();
+      const windowed = framed.mul(tf.signal.hammingWindow(model.modelInputShape[0]));
       const batched = windowed.reshape([windowed.shape[0], windowed.shape[1], 1]);
-      return speechModel.recognize(batched);
+      return model.recognize(batched);
     });
-  
+
     setPrediction(spectrogram[0].toLowerCase());
   };
-  
 
+    // Function to extract audio data from a video element
   const extractAudioData = async (videoElement) => {
     const mediaStream = await videoElement.captureStream();
     const audioContext = new AudioContext();
@@ -48,10 +50,9 @@ function VideoInput() {
 
   useEffect(() => {
     const loadModel = async () => {
-      const speechModel = await speechCommands.create('BROWSER_FFT', undefined, 'https://storage.googleapis.com/tfjs-models/tfjs/speech-commands/vocab.json', 'https://storage.googleapis.com/tfjs-models/tfjs/speech-commands/model.json');
+      const speechModel = await speechCommands.create('BROWSER_FFT');
       await speechModel.ensureModelLoaded();
       setModel(speechModel);
-      setMetadata(speechModel.modelMetadata);
     };
 
     loadModel();
@@ -76,6 +77,7 @@ function VideoInput() {
 }
 
 export default VideoInput;
+
 
 
 
